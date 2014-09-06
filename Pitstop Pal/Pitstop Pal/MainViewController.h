@@ -10,4 +10,13 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+
+@property (weak, nonatomic) IBOutlet UITextField *destinationField;
+
+- (IBAction)ExitText:(id)sender;
+
+
+
+
 @end

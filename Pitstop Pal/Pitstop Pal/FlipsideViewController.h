@@ -16,6 +16,10 @@
 
 @interface FlipsideViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UISlider *sliderValue;
+
+- (IBAction)sliderMoved:(id)sender;
+
 @property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B0805ABAB6E4156A261CD2C /* libPods-Pitstop Pal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 905489049E4048108CF3F9CB /* libPods-Pitstop Pal.a */; };
+		A85A751919BBC94100E3F1D8 /* Podfile in Frameworks */ = {isa = PBXBuildFile; fileRef = A85A751819BBC94100E3F1D8 /* Podfile */; };
 		A86E7D1019BACBE0006BCAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D0F19BACBE0006BCAFB /* Foundation.framework */; };
 		A86E7D1219BACBE0006BCAFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */; };
 		A86E7D1419BACBE0006BCAFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1319BACBE0006BCAFB /* UIKit.framework */; };
@@ -29,8 +29,6 @@
 		A86E7DD619BB31D1006BCAFB /* shell_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD419BB31D1006BCAFB /* shell_logo.png */; };
 		A86E7DD819BB33E6006BCAFB /* Sample_map.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD719BB33E6006BCAFB /* Sample_map.png */; };
 		DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A20AA19BB124000FB517E /* Scheduler.m */; };
-		DE7B838219BBA32B003FE97F /* GasPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7B838119BBA32B003FE97F /* GasPitstop.m */; };
-		DE7B838519BBB102003FE97F /* FoodPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7B838419BBB102003FE97F /* FoodPitstop.m */; };
 		DECD592A19BB1BAF00951DFD /* American.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591119BB1BAF00951DFD /* American.jpg */; };
 		DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591219BB1BAF00951DFD /* Asian.jpg */; };
 		DECD592C19BB1BAF00951DFD /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591319BB1BAF00951DFD /* bar.jpg */; };
@@ -55,7 +53,6 @@
 		DECD593F19BB1BAF00951DFD /* greenBackgroundButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD592719BB1BAF00951DFD /* greenBackgroundButton1.png */; };
 		DECD594019BB1BAF00951DFD /* roadtrip1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592819BB1BAF00951DFD /* roadtrip1.jpg */; };
 		DECD594119BB1BAF00951DFD /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD592919BB1BAF00951DFD /* settings1.png */; };
-		DECD594E19BBA0FF00951DFD /* PitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = DECD594D19BBA0FF00951DFD /* PitStop.m */; };
 		FD91C5FD19BAD1AA00C59027 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD91C5FC19BAD1AA00C59027 /* GoogleMaps.framework */; };
 		FD91C5FF19BAD35400C59027 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */; };
 		FD91C60119BAD38000C59027 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD91C60019BAD38000C59027 /* AVFoundation.framework */; };
@@ -84,6 +81,7 @@
 /* Begin PBXFileReference section */
 		8075374BB2F94052B950B0F5 /* Pods-Pitstop Pal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitstop Pal.xcconfig"; path = "Pods/Pods-Pitstop Pal.xcconfig"; sourceTree = "<group>"; };
 		905489049E4048108CF3F9CB /* libPods-Pitstop Pal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pitstop Pal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85A751819BBC94100E3F1D8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		A86E7D0C19BACBE0006BCAFB /* Pitstop Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitstop Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86E7D0F19BACBE0006BCAFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -112,10 +110,6 @@
 		A86E7DD719BB33E6006BCAFB /* Sample_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample_map.png; sourceTree = "<group>"; };
 		DE7A20A919BB124000FB517E /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
 		DE7A20AA19BB124000FB517E /* Scheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
-		DE7B838019BBA32B003FE97F /* GasPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GasPitstop.h; path = ../GasPitstop.h; sourceTree = "<group>"; };
-		DE7B838119BBA32B003FE97F /* GasPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GasPitstop.m; path = ../GasPitstop.m; sourceTree = "<group>"; };
-		DE7B838319BBB102003FE97F /* FoodPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodPitstop.h; sourceTree = "<group>"; };
-		DE7B838419BBB102003FE97F /* FoodPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodPitstop.m; sourceTree = "<group>"; };
 		DECD591119BB1BAF00951DFD /* American.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American.jpg; sourceTree = "<group>"; };
 		DECD591219BB1BAF00951DFD /* Asian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asian.jpg; sourceTree = "<group>"; };
 		DECD591319BB1BAF00951DFD /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
@@ -140,8 +134,6 @@
 		DECD592719BB1BAF00951DFD /* greenBackgroundButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackgroundButton1.png; sourceTree = "<group>"; };
 		DECD592819BB1BAF00951DFD /* roadtrip1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roadtrip1.jpg; sourceTree = "<group>"; };
 		DECD592919BB1BAF00951DFD /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
-		DECD594C19BBA0FF00951DFD /* PitStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitStop.h; sourceTree = "<group>"; };
-		DECD594D19BBA0FF00951DFD /* PitStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitStop.m; sourceTree = "<group>"; };
 		FD91C5FC19BAD1AA00C59027 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		FD91C60019BAD38000C59027 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -162,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85A751919BBC94100E3F1D8 /* Podfile in Frameworks */,
 				FD91C61519BAD3DE00C59027 /* SystemConfiguration.framework in Frameworks */,
 				FD91C61319BAD3D600C59027 /* QuartzCore.framework in Frameworks */,
 				FD91C61119BAD3CF00C59027 /* OpenGLES.framework in Frameworks */,
@@ -177,7 +170,6 @@
 				A86E7D1419BACBE0006BCAFB /* UIKit.framework in Frameworks */,
 				FD91C5FD19BAD1AA00C59027 /* GoogleMaps.framework in Frameworks */,
 				A86E7D1019BACBE0006BCAFB /* Foundation.framework in Frameworks */,
-				9B0805ABAB6E4156A261CD2C /* libPods-Pitstop Pal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +209,7 @@
 		A86E7D0E19BACBE0006BCAFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A85A751819BBC94100E3F1D8 /* Podfile */,
 				FD91C61419BAD3DE00C59027 /* SystemConfiguration.framework */,
 				FD91C61219BAD3D600C59027 /* QuartzCore.framework */,
 				FD91C61019BAD3CF00C59027 /* OpenGLES.framework */,
@@ -240,25 +233,18 @@
 		A86E7D1519BACBE0006BCAFB /* Pitstop Pal */ = {
 			isa = PBXGroup;
 			children = (
-				DE7B838319BBB102003FE97F /* FoodPitstop.h */,
-				DE7B838419BBB102003FE97F /* FoodPitstop.m */,
-				DE7B838019BBA32B003FE97F /* GasPitstop.h */,
-				DE7B838119BBA32B003FE97F /* GasPitstop.m */,
+				FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */,
 				A86E7D1E19BACBE0006BCAFB /* AppDelegate.h */,
 				A86E7D1F19BACBE0006BCAFB /* AppDelegate.m */,
 				A86E7DCD19BB312E006BCAFB /* Main.storyboard */,
-				A86E7D2719BACBE0006BCAFB /* FlipsideViewController.h */,
-				A86E7D2819BACBE0006BCAFB /* FlipsideViewController.m */,
-				FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */,
 				FD91C5FC19BAD1AA00C59027 /* GoogleMaps.framework */,
-				A86E7D2A19BACBE0006BCAFB /* Images.xcassets */,
-				A86E7DCD19BB312E006BCAFB /* Main.storyboard */,
 				A86E7D2419BACBE0006BCAFB /* MainViewController.h */,
 				A86E7D2519BACBE0006BCAFB /* MainViewController.m */,
-				DECD594C19BBA0FF00951DFD /* PitStop.h */,
-				DECD594D19BBA0FF00951DFD /* PitStop.m */,
 				DE7A20A919BB124000FB517E /* Scheduler.h */,
 				DE7A20AA19BB124000FB517E /* Scheduler.m */,
+				A86E7D2719BACBE0006BCAFB /* FlipsideViewController.h */,
+				A86E7D2819BACBE0006BCAFB /* FlipsideViewController.m */,
+				A86E7D2A19BACBE0006BCAFB /* Images.xcassets */,
 				A86E7D1619BACBE0006BCAFB /* Supporting Files */,
 			);
 			path = "Pitstop Pal";
@@ -509,11 +495,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86E7D2019BACBE0006BCAFB /* AppDelegate.m in Sources */,
-				DE7B838219BBA32B003FE97F /* GasPitstop.m in Sources */,
 				DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */,
-				DE7B838519BBB102003FE97F /* FoodPitstop.m in Sources */,
 				A86E7D2619BACBE0006BCAFB /* MainViewController.m in Sources */,
-				DECD594E19BBA0FF00951DFD /* PitStop.m in Sources */,
 				A86E7D2919BACBE0006BCAFB /* FlipsideViewController.m in Sources */,
 				A86E7D1C19BACBE0006BCAFB /* main.m in Sources */,
 			);

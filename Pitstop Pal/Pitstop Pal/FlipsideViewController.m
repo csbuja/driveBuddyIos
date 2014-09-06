@@ -33,4 +33,6 @@
     [self.delegate flipsideViewControllerDidFinish:self];
 }
 
+- (IBAction)sliderMoved:(id)sender {
+}
 @end
