@@ -38,7 +38,7 @@
     return self;
 }
 
-- (id) Route :(void (^)(NSArray *infos, NSError *error))completionHandler
+- (void) getWaypoints :(void (^)(NSArray *infos, NSError *error))completionHandler
 {
     NSString * urlString = [NSString stringWithFormat:@"%@/googlemaps/%@/%@/%@/%@/%d", self.root,self.initialPos[0], self.initialPos[1],self.destPos[0],self.destPos[1],self.stopFreq];
     NSURL *url = [NSURL URLWithString:urlString];

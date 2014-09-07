@@ -21,7 +21,7 @@
 
 
 - (id)initGoogMapsController:(NSArray*)startLatLon finishLatLon:(NSArray*) finishLatLon stopFreq:(NSUInteger)stopFreq;
-- (id) getRoute;
+- (void) getWaypoints :(void (^)(NSArray *infos, NSError *error))completionHandler;
 - (void) getCarPosition;
 - (double) getDistanceToLoc:(NSArray*) latLon1 latLon2:(NSArray*)latLon2;
 - (NSArray*) getCurrPitstop;
