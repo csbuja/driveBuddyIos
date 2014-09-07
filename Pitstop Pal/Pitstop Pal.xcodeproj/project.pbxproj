@@ -28,6 +28,43 @@
 		A86E7DD519BB31D1006BCAFB /* in-n-out-logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD319BB31D1006BCAFB /* in-n-out-logo.jpg */; };
 		A86E7DD619BB31D1006BCAFB /* shell_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD419BB31D1006BCAFB /* shell_logo.png */; };
 		A86E7DD819BB33E6006BCAFB /* Sample_map.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD719BB33E6006BCAFB /* Sample_map.png */; };
+		DE44C17919BBD64E00608E5C /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE44C14A19BBD64D00608E5C /* Main_iPad.storyboard */; };
+		DE44C17A19BBD64E00608E5C /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE44C14C19BBD64D00608E5C /* Main_iPhone.storyboard */; };
+		DE44C17B19BBD64E00608E5C /* blueButtonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C14E19BBD64D00608E5C /* blueButtonBackground.png */; };
+		DE44C17C19BBD64E00608E5C /* American.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15019BBD64D00608E5C /* American.jpg */; };
+		DE44C17D19BBD64E00608E5C /* Asian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15119BBD64D00608E5C /* Asian.jpg */; };
+		DE44C17E19BBD64E00608E5C /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15219BBD64D00608E5C /* bar.jpg */; };
+		DE44C17F19BBD64E00608E5C /* Barbeque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15319BBD64D00608E5C /* Barbeque.jpg */; };
+		DE44C18019BBD64E00608E5C /* Breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15419BBD64D00608E5C /* Breakfast.jpg */; };
+		DE44C18119BBD64E00608E5C /* Chinese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15519BBD64D00608E5C /* Chinese.jpg */; };
+		DE44C18219BBD64E00608E5C /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15619BBD64D00608E5C /* coffee.jpg */; };
+		DE44C18319BBD64E00608E5C /* Diner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15719BBD64D00608E5C /* Diner.jpg */; };
+		DE44C18419BBD64E00608E5C /* European.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15819BBD64D00608E5C /* European.jpg */; };
+		DE44C18519BBD64E00608E5C /* Fast Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15919BBD64D00608E5C /* Fast Food.jpg */; };
+		DE44C18619BBD64E00608E5C /* Indian.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15A19BBD64D00608E5C /* Indian.png */; };
+		DE44C18719BBD64E00608E5C /* Korean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15B19BBD64D00608E5C /* Korean.jpg */; };
+		DE44C18819BBD64E00608E5C /* Mexican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15C19BBD64D00608E5C /* Mexican.jpg */; };
+		DE44C18919BBD64E00608E5C /* Pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15D19BBD64D00608E5C /* Pizza.jpg */; };
+		DE44C18A19BBD64E00608E5C /* Seafood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15E19BBD64D00608E5C /* Seafood.jpg */; };
+		DE44C18B19BBD64E00608E5C /* Steakhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C15F19BBD64D00608E5C /* Steakhouse.jpg */; };
+		DE44C18C19BBD64E00608E5C /* sushi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16019BBD64D00608E5C /* sushi.jpg */; };
+		DE44C18D19BBD64E00608E5C /* Thai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16119BBD64D00608E5C /* Thai.jpg */; };
+		DE44C18E19BBD64E00608E5C /* Vegetarian.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16219BBD64D00608E5C /* Vegetarian.png */; };
+		DE44C18F19BBD64E00608E5C /* Vietnamese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16319BBD64D00608E5C /* Vietnamese.jpg */; };
+		DE44C19019BBD64E00608E5C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16519BBD64D00608E5C /* InfoPlist.strings */; };
+		DE44C19119BBD64E00608E5C /* FoodPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C16819BBD64D00608E5C /* FoodPitstop.m */; };
+		DE44C19219BBD64E00608E5C /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE44C16919BBD64D00608E5C /* GoogleMaps.framework */; };
+		DE44C19319BBD64E00608E5C /* greenBackgroundButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16A19BBD64D00608E5C /* greenBackgroundButton.png */; };
+		DE44C19419BBD64E00608E5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16B19BBD64D00608E5C /* Images.xcassets */; };
+		DE44C19519BBD64E00608E5C /* blueButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16D19BBD64D00608E5C /* blueButtonBackground1.png */; };
+		DE44C19619BBD64E00608E5C /* greenBackgroundButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16E19BBD64D00608E5C /* greenBackgroundButton1.png */; };
+		DE44C19719BBD64E00608E5C /* roadtrip1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C16F19BBD64D00608E5C /* roadtrip1.jpg */; };
+		DE44C19819BBD64E00608E5C /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C17019BBD64D00608E5C /* settings1.png */; };
+		DE44C19919BBD64E00608E5C /* PitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C17219BBD64D00608E5C /* PitStop.m */; };
+		DE44C19C19BBD64E00608E5C /* roadtrip.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE44C17719BBD64D00608E5C /* roadtrip.jpg */; };
+		DE44C19D19BBD64E00608E5C /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C17819BBD64D00608E5C /* settings.png */; };
+		DE44C1A019BBD65D00608E5C /* GasPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C19F19BBD65D00608E5C /* GasPitstop.m */; };
+		DE44C1A319BBEF8100608E5C /* GoogMapsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C1A219BBEF8100608E5C /* GoogMapsController.m */; };
 		DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A20AA19BB124000FB517E /* Scheduler.m */; };
 		DECD592A19BB1BAF00951DFD /* American.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591119BB1BAF00951DFD /* American.jpg */; };
 		DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591219BB1BAF00951DFD /* Asian.jpg */; };
@@ -108,6 +145,47 @@
 		A86E7DD319BB31D1006BCAFB /* in-n-out-logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "in-n-out-logo.jpg"; sourceTree = "<group>"; };
 		A86E7DD419BB31D1006BCAFB /* shell_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shell_logo.png; sourceTree = "<group>"; };
 		A86E7DD719BB33E6006BCAFB /* Sample_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample_map.png; sourceTree = "<group>"; };
+		DE44C14B19BBD64D00608E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPad.storyboard; sourceTree = "<group>"; };
+		DE44C14D19BBD64D00608E5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		DE44C14E19BBD64D00608E5C /* blueButtonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonBackground.png; sourceTree = "<group>"; };
+		DE44C15019BBD64D00608E5C /* American.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American.jpg; sourceTree = "<group>"; };
+		DE44C15119BBD64D00608E5C /* Asian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asian.jpg; sourceTree = "<group>"; };
+		DE44C15219BBD64D00608E5C /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
+		DE44C15319BBD64D00608E5C /* Barbeque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barbeque.jpg; sourceTree = "<group>"; };
+		DE44C15419BBD64D00608E5C /* Breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Breakfast.jpg; sourceTree = "<group>"; };
+		DE44C15519BBD64D00608E5C /* Chinese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chinese.jpg; sourceTree = "<group>"; };
+		DE44C15619BBD64D00608E5C /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		DE44C15719BBD64D00608E5C /* Diner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diner.jpg; sourceTree = "<group>"; };
+		DE44C15819BBD64D00608E5C /* European.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = European.jpg; sourceTree = "<group>"; };
+		DE44C15919BBD64D00608E5C /* Fast Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fast Food.jpg"; sourceTree = "<group>"; };
+		DE44C15A19BBD64D00608E5C /* Indian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indian.png; sourceTree = "<group>"; };
+		DE44C15B19BBD64D00608E5C /* Korean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Korean.jpg; sourceTree = "<group>"; };
+		DE44C15C19BBD64D00608E5C /* Mexican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mexican.jpg; sourceTree = "<group>"; };
+		DE44C15D19BBD64D00608E5C /* Pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pizza.jpg; sourceTree = "<group>"; };
+		DE44C15E19BBD64D00608E5C /* Seafood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seafood.jpg; sourceTree = "<group>"; };
+		DE44C15F19BBD64D00608E5C /* Steakhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Steakhouse.jpg; sourceTree = "<group>"; };
+		DE44C16019BBD64D00608E5C /* sushi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushi.jpg; sourceTree = "<group>"; };
+		DE44C16119BBD64D00608E5C /* Thai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thai.jpg; sourceTree = "<group>"; };
+		DE44C16219BBD64D00608E5C /* Vegetarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetarian.png; sourceTree = "<group>"; };
+		DE44C16319BBD64D00608E5C /* Vietnamese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vietnamese.jpg; sourceTree = "<group>"; };
+		DE44C16619BBD64D00608E5C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		DE44C16719BBD64D00608E5C /* FoodPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodPitstop.h; sourceTree = "<group>"; };
+		DE44C16819BBD64D00608E5C /* FoodPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodPitstop.m; sourceTree = "<group>"; };
+		DE44C16919BBD64D00608E5C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		DE44C16A19BBD64D00608E5C /* greenBackgroundButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackgroundButton.png; sourceTree = "<group>"; };
+		DE44C16B19BBD64D00608E5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE44C16D19BBD64D00608E5C /* blueButtonBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonBackground1.png; sourceTree = "<group>"; };
+		DE44C16E19BBD64D00608E5C /* greenBackgroundButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackgroundButton1.png; sourceTree = "<group>"; };
+		DE44C16F19BBD64D00608E5C /* roadtrip1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roadtrip1.jpg; sourceTree = "<group>"; };
+		DE44C17019BBD64D00608E5C /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings1.png; sourceTree = "<group>"; };
+		DE44C17119BBD64D00608E5C /* PitStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitStop.h; sourceTree = "<group>"; };
+		DE44C17219BBD64D00608E5C /* PitStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitStop.m; sourceTree = "<group>"; };
+		DE44C17719BBD64D00608E5C /* roadtrip.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roadtrip.jpg; sourceTree = "<group>"; };
+		DE44C17819BBD64D00608E5C /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		DE44C19E19BBD65D00608E5C /* GasPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasPitstop.h; sourceTree = "<group>"; };
+		DE44C19F19BBD65D00608E5C /* GasPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasPitstop.m; sourceTree = "<group>"; };
+		DE44C1A119BBEF8100608E5C /* GoogMapsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogMapsController.h; path = ../GoogMapsController.h; sourceTree = "<group>"; };
+		DE44C1A219BBEF8100608E5C /* GoogMapsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogMapsController.m; path = ../GoogMapsController.m; sourceTree = "<group>"; };
 		DE7A20A919BB124000FB517E /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
 		DE7A20AA19BB124000FB517E /* Scheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
 		DECD591119BB1BAF00951DFD /* American.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American.jpg; sourceTree = "<group>"; };
@@ -168,6 +246,7 @@
 				FD91C60119BAD38000C59027 /* AVFoundation.framework in Frameworks */,
 				A86E7D1219BACBE0006BCAFB /* CoreGraphics.framework in Frameworks */,
 				A86E7D1419BACBE0006BCAFB /* UIKit.framework in Frameworks */,
+				DE44C19219BBD64E00608E5C /* GoogleMaps.framework in Frameworks */,
 				FD91C5FD19BAD1AA00C59027 /* GoogleMaps.framework in Frameworks */,
 				A86E7D1019BACBE0006BCAFB /* Foundation.framework in Frameworks */,
 			);
@@ -233,6 +312,24 @@
 		A86E7D1519BACBE0006BCAFB /* Pitstop Pal */ = {
 			isa = PBXGroup;
 			children = (
+				DE44C1A119BBEF8100608E5C /* GoogMapsController.h */,
+				DE44C1A219BBEF8100608E5C /* GoogMapsController.m */,
+				DE44C19E19BBD65D00608E5C /* GasPitstop.h */,
+				DE44C19F19BBD65D00608E5C /* GasPitstop.m */,
+				DE44C14919BBD64D00608E5C /* Base.lproj */,
+				DE44C14E19BBD64D00608E5C /* blueButtonBackground.png */,
+				DE44C14F19BBD64D00608E5C /* Cuisine Icons */,
+				DE44C16419BBD64D00608E5C /* en.lproj */,
+				DE44C16719BBD64D00608E5C /* FoodPitstop.h */,
+				DE44C16819BBD64D00608E5C /* FoodPitstop.m */,
+				DE44C16919BBD64D00608E5C /* GoogleMaps.framework */,
+				DE44C16A19BBD64D00608E5C /* greenBackgroundButton.png */,
+				DE44C16B19BBD64D00608E5C /* Images.xcassets */,
+				DE44C16C19BBD64D00608E5C /* Non-driving State Icons */,
+				DE44C17119BBD64D00608E5C /* PitStop.h */,
+				DE44C17219BBD64D00608E5C /* PitStop.m */,
+				DE44C17719BBD64D00608E5C /* roadtrip.jpg */,
+				DE44C17819BBD64D00608E5C /* settings.png */,
 				FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */,
 				A86E7D1E19BACBE0006BCAFB /* AppDelegate.h */,
 				A86E7D1F19BACBE0006BCAFB /* AppDelegate.m */,
@@ -278,6 +375,61 @@
 				A86E7D3A19BACBE0006BCAFB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE44C14919BBD64D00608E5C /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				DE44C14A19BBD64D00608E5C /* Main_iPad.storyboard */,
+				DE44C14C19BBD64D00608E5C /* Main_iPhone.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		DE44C14F19BBD64D00608E5C /* Cuisine Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DE44C15019BBD64D00608E5C /* American.jpg */,
+				DE44C15119BBD64D00608E5C /* Asian.jpg */,
+				DE44C15219BBD64D00608E5C /* bar.jpg */,
+				DE44C15319BBD64D00608E5C /* Barbeque.jpg */,
+				DE44C15419BBD64D00608E5C /* Breakfast.jpg */,
+				DE44C15519BBD64D00608E5C /* Chinese.jpg */,
+				DE44C15619BBD64D00608E5C /* coffee.jpg */,
+				DE44C15719BBD64D00608E5C /* Diner.jpg */,
+				DE44C15819BBD64D00608E5C /* European.jpg */,
+				DE44C15919BBD64D00608E5C /* Fast Food.jpg */,
+				DE44C15A19BBD64D00608E5C /* Indian.png */,
+				DE44C15B19BBD64D00608E5C /* Korean.jpg */,
+				DE44C15C19BBD64D00608E5C /* Mexican.jpg */,
+				DE44C15D19BBD64D00608E5C /* Pizza.jpg */,
+				DE44C15E19BBD64D00608E5C /* Seafood.jpg */,
+				DE44C15F19BBD64D00608E5C /* Steakhouse.jpg */,
+				DE44C16019BBD64D00608E5C /* sushi.jpg */,
+				DE44C16119BBD64D00608E5C /* Thai.jpg */,
+				DE44C16219BBD64D00608E5C /* Vegetarian.png */,
+				DE44C16319BBD64D00608E5C /* Vietnamese.jpg */,
+			);
+			path = "Cuisine Icons";
+			sourceTree = "<group>";
+		};
+		DE44C16419BBD64D00608E5C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				DE44C16519BBD64D00608E5C /* InfoPlist.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		DE44C16C19BBD64D00608E5C /* Non-driving State Icons */ = {
+			isa = PBXGroup;
+			children = (
+				DE44C16D19BBD64D00608E5C /* blueButtonBackground1.png */,
+				DE44C16E19BBD64D00608E5C /* greenBackgroundButton1.png */,
+				DE44C16F19BBD64D00608E5C /* roadtrip1.jpg */,
+				DE44C17019BBD64D00608E5C /* settings1.png */,
+			);
+			path = "Non-driving State Icons";
 			sourceTree = "<group>";
 		};
 		DECD591019BB1BAF00951DFD /* Cuisine Icons */ = {
@@ -410,34 +562,66 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE44C19819BBD64E00608E5C /* settings1.png in Resources */,
+				DE44C19719BBD64E00608E5C /* roadtrip1.jpg in Resources */,
+				DE44C18419BBD64E00608E5C /* European.jpg in Resources */,
 				DECD593819BB1BAF00951DFD /* Seafood.jpg in Resources */,
 				DECD593C19BB1BAF00951DFD /* Vegetarian.png in Resources */,
 				DECD592E19BB1BAF00951DFD /* Breakfast.jpg in Resources */,
 				DECD592A19BB1BAF00951DFD /* American.jpg in Resources */,
 				DECD593119BB1BAF00951DFD /* Diner.jpg in Resources */,
+				DE44C18F19BBD64E00608E5C /* Vietnamese.jpg in Resources */,
 				DECD593F19BB1BAF00951DFD /* greenBackgroundButton1.png in Resources */,
 				A86E7DD119BB3156006BCAFB /* arrow-icon-left.png in Resources */,
 				DECD593A19BB1BAF00951DFD /* sushi.jpg in Resources */,
+				DE44C19019BBD64E00608E5C /* InfoPlist.strings in Resources */,
 				A86E7DD519BB31D1006BCAFB /* in-n-out-logo.jpg in Resources */,
+				DE44C18519BBD64E00608E5C /* Fast Food.jpg in Resources */,
 				A86E7DD819BB33E6006BCAFB /* Sample_map.png in Resources */,
+				DE44C18319BBD64E00608E5C /* Diner.jpg in Resources */,
+				DE44C19419BBD64E00608E5C /* Images.xcassets in Resources */,
 				A86E7DD619BB31D1006BCAFB /* shell_logo.png in Resources */,
+				DE44C18819BBD64E00608E5C /* Mexican.jpg in Resources */,
+				DE44C18119BBD64E00608E5C /* Chinese.jpg in Resources */,
+				DE44C17B19BBD64E00608E5C /* blueButtonBackground.png in Resources */,
+				DE44C19319BBD64E00608E5C /* greenBackgroundButton.png in Resources */,
+				DE44C17C19BBD64E00608E5C /* American.jpg in Resources */,
 				A86E7DCE19BB312E006BCAFB /* Main.storyboard in Resources */,
+				DE44C17A19BBD64E00608E5C /* Main_iPhone.storyboard in Resources */,
+				DE44C17E19BBD64E00608E5C /* bar.jpg in Resources */,
 				DECD593D19BB1BAF00951DFD /* Vietnamese.jpg in Resources */,
 				DECD593419BB1BAF00951DFD /* Indian.png in Resources */,
+				DE44C17F19BBD64E00608E5C /* Barbeque.jpg in Resources */,
+				DE44C18619BBD64E00608E5C /* Indian.png in Resources */,
+				DE44C18B19BBD64E00608E5C /* Steakhouse.jpg in Resources */,
+				DE44C19C19BBD64E00608E5C /* roadtrip.jpg in Resources */,
+				DE44C18219BBD64E00608E5C /* coffee.jpg in Resources */,
 				DECD593919BB1BAF00951DFD /* Steakhouse.jpg in Resources */,
 				DECD593E19BB1BAF00951DFD /* blueButtonBackground1.png in Resources */,
+				DE44C19D19BBD64E00608E5C /* settings.png in Resources */,
 				A86E7DD219BB3156006BCAFB /* arrow-icon-right.png in Resources */,
 				DECD593219BB1BAF00951DFD /* European.jpg in Resources */,
 				A86E7D2B19BACBE0006BCAFB /* Images.xcassets in Resources */,
 				DECD593B19BB1BAF00951DFD /* Thai.jpg in Resources */,
 				DECD594119BB1BAF00951DFD /* settings1.png in Resources */,
+				DE44C17D19BBD64E00608E5C /* Asian.jpg in Resources */,
+				DE44C17919BBD64E00608E5C /* Main_iPad.storyboard in Resources */,
 				DECD592F19BB1BAF00951DFD /* Chinese.jpg in Resources */,
 				DECD592D19BB1BAF00951DFD /* Barbeque.jpg in Resources */,
+				DE44C18019BBD64E00608E5C /* Breakfast.jpg in Resources */,
 				DECD594019BB1BAF00951DFD /* roadtrip1.jpg in Resources */,
 				DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */,
 				DECD593619BB1BAF00951DFD /* Mexican.jpg in Resources */,
 				DECD593519BB1BAF00951DFD /* Korean.jpg in Resources */,
+				DE44C18919BBD64E00608E5C /* Pizza.jpg in Resources */,
+				DE44C18C19BBD64E00608E5C /* sushi.jpg in Resources */,
+				DE44C19619BBD64E00608E5C /* greenBackgroundButton1.png in Resources */,
+				DE44C19519BBD64E00608E5C /* blueButtonBackground1.png in Resources */,
+				DE44C18719BBD64E00608E5C /* Korean.jpg in Resources */,
 				A86E7D1A19BACBE0006BCAFB /* InfoPlist.strings in Resources */,
+				DE44C18D19BBD64E00608E5C /* Thai.jpg in Resources */,
+				DE44C18A19BBD64E00608E5C /* Seafood.jpg in Resources */,
+				DE44C18E19BBD64E00608E5C /* Vegetarian.png in Resources */,
 				DECD593719BB1BAF00951DFD /* Pizza.jpg in Resources */,
 				DECD593019BB1BAF00951DFD /* coffee.jpg in Resources */,
 				DECD593319BB1BAF00951DFD /* Fast Food.jpg in Resources */,
@@ -494,11 +678,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE44C1A319BBEF8100608E5C /* GoogMapsController.m in Sources */,
 				A86E7D2019BACBE0006BCAFB /* AppDelegate.m in Sources */,
+				DE44C19119BBD64E00608E5C /* FoodPitstop.m in Sources */,
 				DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */,
+				DE44C19919BBD64E00608E5C /* PitStop.m in Sources */,
 				A86E7D2619BACBE0006BCAFB /* MainViewController.m in Sources */,
 				A86E7D2919BACBE0006BCAFB /* FlipsideViewController.m in Sources */,
 				A86E7D1C19BACBE0006BCAFB /* main.m in Sources */,
+				DE44C1A019BBD65D00608E5C /* GasPitstop.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +721,30 @@
 			isa = PBXVariantGroup;
 			children = (
 				A86E7D3B19BACBE0006BCAFB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE44C14A19BBD64D00608E5C /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE44C14B19BBD64D00608E5C /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		DE44C14C19BBD64D00608E5C /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE44C14D19BBD64D00608E5C /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		DE44C16519BBD64D00608E5C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE44C16619BBD64D00608E5C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -618,8 +830,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Pitstop",
+					Pal,
 					"$(PROJECT_DIR)/Pitstop",
 					Pal,
 				);
@@ -637,8 +852,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
+					"$(PROJECT_DIR)/Pitstop",
+					Pal,
 					"$(PROJECT_DIR)/Pitstop",
 					Pal,
 				);
