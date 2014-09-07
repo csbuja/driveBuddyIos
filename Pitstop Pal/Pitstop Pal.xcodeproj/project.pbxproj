@@ -65,6 +65,7 @@
 		DE44C19D19BBD64E00608E5C /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = DE44C17819BBD64D00608E5C /* settings.png */; };
 		DE44C1A019BBD65D00608E5C /* GasPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C19F19BBD65D00608E5C /* GasPitstop.m */; };
 		DE44C1A319BBEF8100608E5C /* GoogMapsController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C1A219BBEF8100608E5C /* GoogMapsController.m */; };
+		DE44C1A919BC7D9B00608E5C /* addressToLatLon.m in Sources */ = {isa = PBXBuildFile; fileRef = DE44C1A819BC7D9B00608E5C /* addressToLatLon.m */; };
 		DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A20AA19BB124000FB517E /* Scheduler.m */; };
 		DECD592A19BB1BAF00951DFD /* American.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591119BB1BAF00951DFD /* American.jpg */; };
 		DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591219BB1BAF00951DFD /* Asian.jpg */; };
@@ -186,6 +187,8 @@
 		DE44C19F19BBD65D00608E5C /* GasPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasPitstop.m; sourceTree = "<group>"; };
 		DE44C1A119BBEF8100608E5C /* GoogMapsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GoogMapsController.h; path = ../GoogMapsController.h; sourceTree = "<group>"; };
 		DE44C1A219BBEF8100608E5C /* GoogMapsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GoogMapsController.m; path = ../GoogMapsController.m; sourceTree = "<group>"; };
+		DE44C1A719BC7D9B00608E5C /* addressToLatLon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addressToLatLon.h; sourceTree = "<group>"; };
+		DE44C1A819BC7D9B00608E5C /* addressToLatLon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addressToLatLon.m; sourceTree = "<group>"; };
 		DE7A20A919BB124000FB517E /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
 		DE7A20AA19BB124000FB517E /* Scheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
 		DECD591119BB1BAF00951DFD /* American.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American.jpg; sourceTree = "<group>"; };
@@ -312,6 +315,8 @@
 		A86E7D1519BACBE0006BCAFB /* Pitstop Pal */ = {
 			isa = PBXGroup;
 			children = (
+				DE44C1A719BC7D9B00608E5C /* addressToLatLon.h */,
+				DE44C1A819BC7D9B00608E5C /* addressToLatLon.m */,
 				DE44C1A119BBEF8100608E5C /* GoogMapsController.h */,
 				DE44C1A219BBEF8100608E5C /* GoogMapsController.m */,
 				DE44C19E19BBD65D00608E5C /* GasPitstop.h */,
@@ -683,6 +688,7 @@
 				DE44C19119BBD64E00608E5C /* FoodPitstop.m in Sources */,
 				DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */,
 				DE44C19919BBD64E00608E5C /* PitStop.m in Sources */,
+				DE44C1A919BC7D9B00608E5C /* addressToLatLon.m in Sources */,
 				A86E7D2619BACBE0006BCAFB /* MainViewController.m in Sources */,
 				A86E7D2919BACBE0006BCAFB /* FlipsideViewController.m in Sources */,
 				A86E7D1C19BACBE0006BCAFB /* main.m in Sources */,

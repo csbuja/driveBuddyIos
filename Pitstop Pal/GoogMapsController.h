@@ -20,9 +20,9 @@
 @property (strong) NSString * root;
 
 
-- (id)initGoogMapsController:(NSArray*)startLatLon finishLatLon:(NSArray*) finishLatLon stopFreq:(NSUInteger)stopFreq;
+- (id)initGoogMapsController:(NSArray*) finishLatLon stopFreq:(NSUInteger)stopFreq;
 - (void) getWaypoints :(void (^)(NSArray *infos, NSError *error))completionHandler;
-- (void) getCarPosition;
+- (void) setCurrentCarPosition;
 - (double) getDistanceToLoc:(NSArray*) latLon1 latLon2:(NSArray*)latLon2;
 - (NSArray*) getCurrPitstop;
 

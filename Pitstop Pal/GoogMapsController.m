@@ -11,12 +11,10 @@
 
 @implementation GoogMapsController
 
-- (id)initGoogMapsController:(NSArray*)startLatLon finishLatLon:(NSArray*) finishLatLon stopFreq:(NSUInteger)stopFreq
+- (id)initGoogMapsController:(NSArray*) finishLatLon stopFreq:(NSUInteger)stopFreq
 {
     if (self = [super init])
     {
-        _initialPos = startLatLon;
-        _currentPos = startLatLon;
         _destPos = finishLatLon;
         _currPitstop = 0;
         _root = @"http://quiet-refuge-4252.herokuapp.com";
@@ -66,9 +64,11 @@
 
 - (void) setCurrentCarPosition 
 {
+    
     NSNumber * latitude = [NSNumber numberWithFloat:_locationManager.location.coordinate.latitude ];
     NSNumber * longitude = [NSNumber numberWithFloat:_locationManager.location.coordinate.longitude ];
     _currentPos = [NSArray arrayWithObjects:latitude, longitude, nil];
+    if(!_initialPos) _initialPos = _currentPos;
     //if your next pitstop is the last one, then check below for _destPos
     //if the car is closer to the i+1 pitstop than current position then your next stop should be set as i+1
     [self checkAndSetNextPitstop];
