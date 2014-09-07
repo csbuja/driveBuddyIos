@@ -10,7 +10,9 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
 
-@property (weak, nonatomic) IBOutlet UILabel *Label;
+@property NSMutableDictionary *cuisinePrefs;
+@property int stopFrequency;
+
 
 - (IBAction)PITSToptions:(id)sender;
 

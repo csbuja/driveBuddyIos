@@ -32,6 +32,7 @@
 		A85A755119BC022900E3F1D8 /* Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753D19BC022900E3F1D8 /* Thai.png */; };
 		A85A755219BC022900E3F1D8 /* Vegetarian.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753E19BC022900E3F1D8 /* Vegetarian.png */; };
 		A85A755319BC022900E3F1D8 /* Vietnamese.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753F19BC022900E3F1D8 /* Vietnamese.png */; };
+		A85A755519BC335700E3F1D8 /* checkMark.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A755419BC335700E3F1D8 /* checkMark.png */; };
 		A86E7D1019BACBE0006BCAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D0F19BACBE0006BCAFB /* Foundation.framework */; };
 		A86E7D1219BACBE0006BCAFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */; };
 		A86E7D1419BACBE0006BCAFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1319BACBE0006BCAFB /* UIKit.framework */; };
@@ -114,6 +115,7 @@
 		A85A753D19BC022900E3F1D8 /* Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thai.png; sourceTree = "<group>"; };
 		A85A753E19BC022900E3F1D8 /* Vegetarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetarian.png; sourceTree = "<group>"; };
 		A85A753F19BC022900E3F1D8 /* Vietnamese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vietnamese.png; sourceTree = "<group>"; };
+		A85A755419BC335700E3F1D8 /* checkMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkMark.png; sourceTree = "<group>"; };
 		A86E7D0C19BACBE0006BCAFB /* Pitstop Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitstop Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86E7D0F19BACBE0006BCAFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -341,6 +343,7 @@
 		DECD594219BB1BC300951DFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A85A755419BC335700E3F1D8 /* checkMark.png */,
 				A86E7DD719BB33E6006BCAFB /* Sample_map.png */,
 				A86E7DD319BB31D1006BCAFB /* in-n-out-logo.jpg */,
 				A86E7DD419BB31D1006BCAFB /* shell_logo.png */,
@@ -454,6 +457,7 @@
 				A86E7DD219BB3156006BCAFB /* arrow-icon-right.png in Resources */,
 				A85A754B19BC022900E3F1D8 /* Korean.png in Resources */,
 				A86E7D2B19BACBE0006BCAFB /* Images.xcassets in Resources */,
+				A85A755519BC335700E3F1D8 /* checkMark.png in Resources */,
 				A85A754619BC022900E3F1D8 /* Coffee.png in Resources */,
 				DECD594119BB1BAF00951DFD /* settings1.png in Resources */,
 				A85A755119BC022900E3F1D8 /* Thai.png in Resources */,

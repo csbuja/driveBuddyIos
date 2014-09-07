@@ -12,7 +12,7 @@
 
 
 @implementation MainViewController
-@synthesize destinationField, Label;
+@synthesize destinationField, cuisinePrefs, stopFrequency;
 
 NSString *dest;
 
@@ -25,7 +25,6 @@ NSString *dest;
 
 - (IBAction)ExitText:(id)sender {
     dest = destinationField.text;
-    Label.text = dest;
     
 }
 - (IBAction)PITSToptions:(id)sender {
@@ -35,6 +34,8 @@ NSString *dest;
     
     DrivingViewController *drivingLayer = [self.storyboard instantiateViewControllerWithIdentifier:@"drivingLayer"];
     drivingLayer.destinationAddress = dest;
+    drivingLayer.cuisinePrefs = cuisinePrefs;
+    drivingLayer.stopFreq = stopFrequency;
     [self.navigationController pushViewController:drivingLayer animated:YES];
     
     

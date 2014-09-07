@@ -13,13 +13,32 @@
 @end
 
 @implementation DrivingViewController
-@synthesize destinationAddress;
+@synthesize destinationAddress, stopFreq, cuisinePrefs;
+
+NSMutableArray *foodPrefs;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+/*
+        foodPrefs =
+        
+        if ([cuisinePrefs objectForKey:@"american"])
+        {
+            
+        }
+        
+        
+  */      
+        
+        
+        
+        
+        
+        
+        
     }
     return self;
 }

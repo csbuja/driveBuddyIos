@@ -15,5 +15,8 @@
 @interface DrivingViewController : UIViewController
 
 @property NSString *destinationAddress;
+@property NSMutableDictionary *cuisinePrefs;
+@property int stopFreq;
+
 
 @end

@@ -7,7 +7,7 @@
         <!--Main View Controller-->
         <scene sceneID="rV5-Y2-ghB">
             <objects>
-                <viewController id="rQl-PL-IFJ" customClass="MainViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="mainView" id="rQl-PL-IFJ" customClass="MainViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bfD-tQ-IfD"/>
                         <viewControllerLayoutGuide type="bottom" id="c4s-Xn-x5B"/>
@@ -46,8 +46,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GSB-Xb-0QS">
-                                <rect key="frame" x="35" y="269" width="250" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Destination" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GSB-Xb-0QS">
+                                <rect key="frame" x="20" y="269" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="250" id="olM-HB-cE4"/>
@@ -92,17 +92,6 @@
                                     <segue destination="yUb-SI-jRe" kind="modal" modalTransitionStyle="crossDissolve" id="OVr-VP-snB"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="krZ-qd-rfZ">
-                                <rect key="frame" x="35" y="316" width="260" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="PWr-to-V4Q"/>
-                                    <constraint firstAttribute="width" constant="260" id="RCu-yM-o0I"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -111,10 +100,8 @@
                             <constraint firstItem="nFr-e3-oaI" firstAttribute="centerX" secondItem="GSB-Xb-0QS" secondAttribute="centerX" id="6TH-BZ-0zb"/>
                             <constraint firstItem="fFE-GW-sNf" firstAttribute="centerX" secondItem="nFr-e3-oaI" secondAttribute="centerX" constant="0.5" id="A1F-rL-SFL"/>
                             <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="fFE-GW-sNf" secondAttribute="bottom" constant="157" id="JXT-wm-LwA"/>
-                            <constraint firstItem="krZ-qd-rfZ" firstAttribute="leading" secondItem="nFr-e3-oaI" secondAttribute="trailing" constant="-285" id="R7q-dJ-xvJ"/>
                             <constraint firstItem="nFr-e3-oaI" firstAttribute="centerX" secondItem="9RJ-gM-ugm" secondAttribute="centerX" constant="-0.5" id="ROU-Jl-0AK"/>
                             <constraint firstAttribute="bottom" secondItem="jqg-sy-dxO" secondAttribute="bottom" constant="20" symbolic="YES" id="Uf2-YL-3zF"/>
-                            <constraint firstItem="krZ-qd-rfZ" firstAttribute="top" secondItem="nFr-e3-oaI" secondAttribute="bottom" constant="-252" id="YVW-3Z-tyj"/>
                             <constraint firstItem="wkE-qc-lTR" firstAttribute="centerX" secondItem="nFr-e3-oaI" secondAttribute="centerX" id="cxr-CO-D4d"/>
                             <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="9RJ-gM-ugm" secondAttribute="bottom" constant="43" id="ecG-pc-GEI"/>
                             <constraint firstItem="wkE-qc-lTR" firstAttribute="top" secondItem="bfD-tQ-IfD" secondAttribute="bottom" constant="27" id="im8-Ko-2H0"/>
@@ -123,7 +110,6 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Label" destination="krZ-qd-rfZ" id="yy4-kE-Y2T"/>
                         <outlet property="destinationField" destination="GSB-Xb-0QS" id="cJc-UT-RpX"/>
                     </connections>
                 </viewController>
@@ -619,7 +605,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXB-OR-bf4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXB-OR-bf4">
                                 <rect key="frame" x="28" y="132" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -634,7 +620,7 @@
                                     <action selector="sliderMoved:" destination="kIf-nA-PKG" eventType="touchUpInside" id="xoD-0R-rZ4"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sex-he-Zbp">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sex-he-Zbp">
                                 <rect key="frame" x="84" y="132" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -648,7 +634,7 @@
                                     <action selector="asian:" destination="kIf-nA-PKG" eventType="touchUpInside" id="Xfa-Op-OOL"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k3-qG-WLN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2k3-qG-WLN">
                                 <rect key="frame" x="140" y="132" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -662,7 +648,7 @@
                                     <action selector="bar:" destination="kIf-nA-PKG" eventType="touchUpInside" id="D3F-w1-I3K"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5N-iZ-Qwj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v5N-iZ-Qwj">
                                 <rect key="frame" x="196" y="132" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -676,7 +662,7 @@
                                     <action selector="barbeque:" destination="kIf-nA-PKG" eventType="touchUpInside" id="7Ga-Jw-hlS"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJY-Ei-DcH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nJY-Ei-DcH">
                                 <rect key="frame" x="252" y="132" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -690,7 +676,7 @@
                                     <action selector="breakfast:" destination="kIf-nA-PKG" eventType="touchUpInside" id="RhG-2F-aph"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lsz-0H-7dd">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lsz-0H-7dd">
                                 <rect key="frame" x="28" y="199" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -704,7 +690,7 @@
                                     <action selector="chinese:" destination="kIf-nA-PKG" eventType="touchUpInside" id="pMs-Wn-xz9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujU-lE-An3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujU-lE-An3">
                                 <rect key="frame" x="84" y="199" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -718,7 +704,7 @@
                                     <action selector="coffee:" destination="kIf-nA-PKG" eventType="touchUpInside" id="tKw-ff-Ape"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP8-q1-cSS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uP8-q1-cSS">
                                 <rect key="frame" x="140" y="199" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -732,7 +718,7 @@
                                     <action selector="diner:" destination="kIf-nA-PKG" eventType="touchUpInside" id="8sg-Rd-0vb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buX-jQ-X23">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="buX-jQ-X23">
                                 <rect key="frame" x="196" y="199" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -746,7 +732,7 @@
                                     <action selector="european:" destination="kIf-nA-PKG" eventType="touchUpInside" id="rHb-q7-gbc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs0-Y0-ZnD">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fs0-Y0-ZnD">
                                 <rect key="frame" x="252" y="199" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -760,7 +746,7 @@
                                     <action selector="fastFood:" destination="kIf-nA-PKG" eventType="touchUpInside" id="a1x-Qr-Pyj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zJ-so-9Di">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zJ-so-9Di">
                                 <rect key="frame" x="28" y="267" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -774,7 +760,7 @@
                                     <action selector="indian:" destination="kIf-nA-PKG" eventType="touchUpInside" id="mLD-mq-fxa"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmh-XZ-vr3">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pmh-XZ-vr3">
                                 <rect key="frame" x="84" y="267" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -788,7 +774,7 @@
                                     <action selector="korean:" destination="kIf-nA-PKG" eventType="touchUpInside" id="d27-W6-Dof"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NV-Ka-keN">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5NV-Ka-keN">
                                 <rect key="frame" x="140" y="267" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -802,7 +788,7 @@
                                     <action selector="mexican:" destination="kIf-nA-PKG" eventType="touchUpInside" id="aMQ-2f-us8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5o-M6-8PX">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5o-M6-8PX">
                                 <rect key="frame" x="196" y="267" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -816,7 +802,7 @@
                                     <action selector="pizza:" destination="kIf-nA-PKG" eventType="touchUpInside" id="zKn-0h-IGP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2Z-Cd-PGH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2Z-Cd-PGH">
                                 <rect key="frame" x="252" y="267" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -830,7 +816,7 @@
                                     <action selector="seafood:" destination="kIf-nA-PKG" eventType="touchUpInside" id="UKd-hp-I7X"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttd-wM-hmK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ttd-wM-hmK">
                                 <rect key="frame" x="28" y="334" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -844,7 +830,7 @@
                                     <action selector="steakhouse:" destination="kIf-nA-PKG" eventType="touchUpInside" id="dHd-lU-iU0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM9-78-vNT">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GM9-78-vNT">
                                 <rect key="frame" x="84" y="334" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -858,7 +844,7 @@
                                     <action selector="sushi:" destination="kIf-nA-PKG" eventType="touchUpInside" id="E6a-bH-zMo"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bW-qs-KV4">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4bW-qs-KV4">
                                 <rect key="frame" x="140" y="334" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -872,7 +858,7 @@
                                     <action selector="thai:" destination="kIf-nA-PKG" eventType="touchUpInside" id="iUB-zG-fSt"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdX-Et-yZe">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DdX-Et-yZe">
                                 <rect key="frame" x="196" y="334" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -886,7 +872,7 @@
                                     <action selector="vegetarian:" destination="kIf-nA-PKG" eventType="touchUpInside" id="Uli-PY-ZKP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXd-ey-jUK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXd-ey-jUK">
                                 <rect key="frame" x="252" y="334" width="48" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
@@ -1014,28 +1000,25 @@
                     </view>
                     <connections>
                         <outlet property="americanButton" destination="eXB-OR-bf4" id="bST-Z0-h97"/>
-                        <outlet property="asian" destination="Sex-he-Zbp" id="pyG-OO-HWi"/>
                         <outlet property="asianButton" destination="Sex-he-Zbp" id="2PP-mc-2Uc"/>
                         <outlet property="barButton" destination="2k3-qG-WLN" id="b5l-U8-K0E"/>
                         <outlet property="barbequeButton" destination="v5N-iZ-Qwj" id="nZp-sY-N3R"/>
                         <outlet property="breakfastButton" destination="nJY-Ei-DcH" id="XiP-22-XoG"/>
                         <outlet property="chineseButton" destination="Lsz-0H-7dd" id="Oan-lQ-fao"/>
                         <outlet property="coffeeButton" destination="ujU-lE-An3" id="VXN-la-Boh"/>
-                        <outlet property="diner" destination="uP8-q1-cSS" id="ZAt-Bd-CT7"/>
                         <outlet property="dinerButton" destination="uP8-q1-cSS" id="Ayf-ep-d4B"/>
                         <outlet property="europeanButton" destination="buX-jQ-X23" id="rPv-c9-jFD"/>
                         <outlet property="fastFoodButton" destination="Fs0-Y0-ZnD" id="olH-wX-WHy"/>
                         <outlet property="indianButton" destination="6zJ-so-9Di" id="cvW-0g-5Rr"/>
                         <outlet property="koreanButton" destination="pmh-XZ-vr3" id="dYN-6x-UIl"/>
-                        <outlet property="mexican" destination="5NV-Ka-keN" id="E2q-f2-mIq"/>
+                        <outlet property="mexicanButton" destination="5NV-Ka-keN" id="skd-D5-z5J"/>
                         <outlet property="pizzaButton" destination="N5o-M6-8PX" id="4h2-fa-ror"/>
                         <outlet property="seafoodButton" destination="f2Z-Cd-PGH" id="ViO-Q4-P1Q"/>
                         <outlet property="sliderValue" destination="pPs-0N-yN7" id="6ee-sw-J2c"/>
                         <outlet property="steakhouseButton" destination="ttd-wM-hmK" id="tCl-EN-Uz9"/>
                         <outlet property="stopFreqLabel" destination="zc2-iD-HsI" id="fRD-tB-Arf"/>
                         <outlet property="sushiButton" destination="GM9-78-vNT" id="pUi-ZM-zmg"/>
-                        <outlet property="thai" destination="4bW-qs-KV4" id="37D-BX-FT6"/>
-                        <outlet property="vegetarian" destination="DdX-Et-yZe" id="MC3-ew-vlh"/>
+                        <outlet property="thaiButton" destination="4bW-qs-KV4" id="fZV-aZ-Khf"/>
                         <outlet property="vegetarianButton" destination="DdX-Et-yZe" id="FDj-Pe-wUe"/>
                         <outlet property="vietnameseButton" destination="dXd-ey-jUK" id="e7A-QG-KDc"/>
                     </connections>
