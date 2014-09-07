@@ -12,6 +12,10 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *Label;
 
+- (IBAction)PITSToptions:(id)sender;
+
+- (IBAction)startTrip:(id)sender;
+
 @property (weak, nonatomic) IBOutlet UITextField *destinationField;
 
 - (IBAction)ExitText:(id)sender;

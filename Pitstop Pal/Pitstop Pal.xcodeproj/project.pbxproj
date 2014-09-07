@@ -8,6 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A85A751919BBC94100E3F1D8 /* Podfile in Frameworks */ = {isa = PBXBuildFile; fileRef = A85A751819BBC94100E3F1D8 /* Podfile */; };
+		A85A751E19BBEE3D00E3F1D8 /* FoodPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A751B19BBEE3D00E3F1D8 /* FoodPitstop.m */; };
+		A85A751F19BBEE3D00E3F1D8 /* PitStop.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A751D19BBEE3D00E3F1D8 /* PitStop.m */; };
+		A85A752219BBEE5D00E3F1D8 /* GasPitstop.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A752119BBEE5D00E3F1D8 /* GasPitstop.m */; };
+		A85A752A19BBF2B600E3F1D8 /* DrivingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85A752919BBF2B600E3F1D8 /* DrivingViewController.m */; };
+		A85A754019BC022900E3F1D8 /* American.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A752C19BC022900E3F1D8 /* American.png */; };
+		A85A754119BC022900E3F1D8 /* Asian.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A752D19BC022900E3F1D8 /* Asian.png */; };
+		A85A754219BC022900E3F1D8 /* Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A752E19BC022900E3F1D8 /* Bar.png */; };
+		A85A754319BC022900E3F1D8 /* Barbeque.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A752F19BC022900E3F1D8 /* Barbeque.png */; };
+		A85A754419BC022900E3F1D8 /* Breakfast.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753019BC022900E3F1D8 /* Breakfast.png */; };
+		A85A754519BC022900E3F1D8 /* Chinese.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753119BC022900E3F1D8 /* Chinese.png */; };
+		A85A754619BC022900E3F1D8 /* Coffee.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753219BC022900E3F1D8 /* Coffee.png */; };
+		A85A754719BC022900E3F1D8 /* Diner.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753319BC022900E3F1D8 /* Diner.png */; };
+		A85A754819BC022900E3F1D8 /* European.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753419BC022900E3F1D8 /* European.png */; };
+		A85A754919BC022900E3F1D8 /* Fast Food.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753519BC022900E3F1D8 /* Fast Food.png */; };
+		A85A754A19BC022900E3F1D8 /* Indian.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753619BC022900E3F1D8 /* Indian.png */; };
+		A85A754B19BC022900E3F1D8 /* Korean.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753719BC022900E3F1D8 /* Korean.png */; };
+		A85A754C19BC022900E3F1D8 /* Mexican.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753819BC022900E3F1D8 /* Mexican.png */; };
+		A85A754D19BC022900E3F1D8 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753919BC022900E3F1D8 /* Pizza.png */; };
+		A85A754E19BC022900E3F1D8 /* Seafood.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753A19BC022900E3F1D8 /* Seafood.png */; };
+		A85A754F19BC022900E3F1D8 /* Steakhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753B19BC022900E3F1D8 /* Steakhouse.png */; };
+		A85A755019BC022900E3F1D8 /* Sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753C19BC022900E3F1D8 /* Sushi.png */; };
+		A85A755119BC022900E3F1D8 /* Thai.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753D19BC022900E3F1D8 /* Thai.png */; };
+		A85A755219BC022900E3F1D8 /* Vegetarian.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753E19BC022900E3F1D8 /* Vegetarian.png */; };
+		A85A755319BC022900E3F1D8 /* Vietnamese.png in Resources */ = {isa = PBXBuildFile; fileRef = A85A753F19BC022900E3F1D8 /* Vietnamese.png */; };
 		A86E7D1019BACBE0006BCAFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D0F19BACBE0006BCAFB /* Foundation.framework */; };
 		A86E7D1219BACBE0006BCAFB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */; };
 		A86E7D1419BACBE0006BCAFB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86E7D1319BACBE0006BCAFB /* UIKit.framework */; };
@@ -29,26 +53,6 @@
 		A86E7DD619BB31D1006BCAFB /* shell_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD419BB31D1006BCAFB /* shell_logo.png */; };
 		A86E7DD819BB33E6006BCAFB /* Sample_map.png in Resources */ = {isa = PBXBuildFile; fileRef = A86E7DD719BB33E6006BCAFB /* Sample_map.png */; };
 		DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = DE7A20AA19BB124000FB517E /* Scheduler.m */; };
-		DECD592A19BB1BAF00951DFD /* American.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591119BB1BAF00951DFD /* American.jpg */; };
-		DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591219BB1BAF00951DFD /* Asian.jpg */; };
-		DECD592C19BB1BAF00951DFD /* bar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591319BB1BAF00951DFD /* bar.jpg */; };
-		DECD592D19BB1BAF00951DFD /* Barbeque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591419BB1BAF00951DFD /* Barbeque.jpg */; };
-		DECD592E19BB1BAF00951DFD /* Breakfast.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591519BB1BAF00951DFD /* Breakfast.jpg */; };
-		DECD592F19BB1BAF00951DFD /* Chinese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591619BB1BAF00951DFD /* Chinese.jpg */; };
-		DECD593019BB1BAF00951DFD /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591719BB1BAF00951DFD /* coffee.jpg */; };
-		DECD593119BB1BAF00951DFD /* Diner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591819BB1BAF00951DFD /* Diner.jpg */; };
-		DECD593219BB1BAF00951DFD /* European.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591919BB1BAF00951DFD /* European.jpg */; };
-		DECD593319BB1BAF00951DFD /* Fast Food.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591A19BB1BAF00951DFD /* Fast Food.jpg */; };
-		DECD593419BB1BAF00951DFD /* Indian.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD591B19BB1BAF00951DFD /* Indian.png */; };
-		DECD593519BB1BAF00951DFD /* Korean.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591C19BB1BAF00951DFD /* Korean.jpg */; };
-		DECD593619BB1BAF00951DFD /* Mexican.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591D19BB1BAF00951DFD /* Mexican.jpg */; };
-		DECD593719BB1BAF00951DFD /* Pizza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591E19BB1BAF00951DFD /* Pizza.jpg */; };
-		DECD593819BB1BAF00951DFD /* Seafood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD591F19BB1BAF00951DFD /* Seafood.jpg */; };
-		DECD593919BB1BAF00951DFD /* Steakhouse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592019BB1BAF00951DFD /* Steakhouse.jpg */; };
-		DECD593A19BB1BAF00951DFD /* sushi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592119BB1BAF00951DFD /* sushi.jpg */; };
-		DECD593B19BB1BAF00951DFD /* Thai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592219BB1BAF00951DFD /* Thai.jpg */; };
-		DECD593C19BB1BAF00951DFD /* Vegetarian.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD592319BB1BAF00951DFD /* Vegetarian.png */; };
-		DECD593D19BB1BAF00951DFD /* Vietnamese.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592419BB1BAF00951DFD /* Vietnamese.jpg */; };
 		DECD593E19BB1BAF00951DFD /* blueButtonBackground1.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD592619BB1BAF00951DFD /* blueButtonBackground1.png */; };
 		DECD593F19BB1BAF00951DFD /* greenBackgroundButton1.png in Resources */ = {isa = PBXBuildFile; fileRef = DECD592719BB1BAF00951DFD /* greenBackgroundButton1.png */; };
 		DECD594019BB1BAF00951DFD /* roadtrip1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DECD592819BB1BAF00951DFD /* roadtrip1.jpg */; };
@@ -82,6 +86,34 @@
 		8075374BB2F94052B950B0F5 /* Pods-Pitstop Pal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pitstop Pal.xcconfig"; path = "Pods/Pods-Pitstop Pal.xcconfig"; sourceTree = "<group>"; };
 		905489049E4048108CF3F9CB /* libPods-Pitstop Pal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Pitstop Pal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A85A751819BBC94100E3F1D8 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		A85A751A19BBEE3D00E3F1D8 /* FoodPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodPitstop.h; sourceTree = "<group>"; };
+		A85A751B19BBEE3D00E3F1D8 /* FoodPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodPitstop.m; sourceTree = "<group>"; };
+		A85A751C19BBEE3D00E3F1D8 /* PitStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PitStop.h; sourceTree = "<group>"; };
+		A85A751D19BBEE3D00E3F1D8 /* PitStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PitStop.m; sourceTree = "<group>"; };
+		A85A752019BBEE5D00E3F1D8 /* GasPitstop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasPitstop.h; sourceTree = "<group>"; };
+		A85A752119BBEE5D00E3F1D8 /* GasPitstop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasPitstop.m; sourceTree = "<group>"; };
+		A85A752819BBF2B600E3F1D8 /* DrivingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrivingViewController.h; sourceTree = "<group>"; };
+		A85A752919BBF2B600E3F1D8 /* DrivingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrivingViewController.m; sourceTree = "<group>"; };
+		A85A752C19BC022900E3F1D8 /* American.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = American.png; sourceTree = "<group>"; };
+		A85A752D19BC022900E3F1D8 /* Asian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Asian.png; sourceTree = "<group>"; };
+		A85A752E19BC022900E3F1D8 /* Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bar.png; sourceTree = "<group>"; };
+		A85A752F19BC022900E3F1D8 /* Barbeque.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Barbeque.png; sourceTree = "<group>"; };
+		A85A753019BC022900E3F1D8 /* Breakfast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breakfast.png; sourceTree = "<group>"; };
+		A85A753119BC022900E3F1D8 /* Chinese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chinese.png; sourceTree = "<group>"; };
+		A85A753219BC022900E3F1D8 /* Coffee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Coffee.png; sourceTree = "<group>"; };
+		A85A753319BC022900E3F1D8 /* Diner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Diner.png; sourceTree = "<group>"; };
+		A85A753419BC022900E3F1D8 /* European.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = European.png; sourceTree = "<group>"; };
+		A85A753519BC022900E3F1D8 /* Fast Food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Fast Food.png"; sourceTree = "<group>"; };
+		A85A753619BC022900E3F1D8 /* Indian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indian.png; sourceTree = "<group>"; };
+		A85A753719BC022900E3F1D8 /* Korean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Korean.png; sourceTree = "<group>"; };
+		A85A753819BC022900E3F1D8 /* Mexican.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mexican.png; sourceTree = "<group>"; };
+		A85A753919BC022900E3F1D8 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		A85A753A19BC022900E3F1D8 /* Seafood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Seafood.png; sourceTree = "<group>"; };
+		A85A753B19BC022900E3F1D8 /* Steakhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Steakhouse.png; sourceTree = "<group>"; };
+		A85A753C19BC022900E3F1D8 /* Sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sushi.png; sourceTree = "<group>"; };
+		A85A753D19BC022900E3F1D8 /* Thai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Thai.png; sourceTree = "<group>"; };
+		A85A753E19BC022900E3F1D8 /* Vegetarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetarian.png; sourceTree = "<group>"; };
+		A85A753F19BC022900E3F1D8 /* Vietnamese.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vietnamese.png; sourceTree = "<group>"; };
 		A86E7D0C19BACBE0006BCAFB /* Pitstop Pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitstop Pal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86E7D0F19BACBE0006BCAFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A86E7D1119BACBE0006BCAFB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -110,26 +142,6 @@
 		A86E7DD719BB33E6006BCAFB /* Sample_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sample_map.png; sourceTree = "<group>"; };
 		DE7A20A919BB124000FB517E /* Scheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scheduler.h; sourceTree = "<group>"; };
 		DE7A20AA19BB124000FB517E /* Scheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scheduler.m; sourceTree = "<group>"; };
-		DECD591119BB1BAF00951DFD /* American.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = American.jpg; sourceTree = "<group>"; };
-		DECD591219BB1BAF00951DFD /* Asian.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Asian.jpg; sourceTree = "<group>"; };
-		DECD591319BB1BAF00951DFD /* bar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bar.jpg; sourceTree = "<group>"; };
-		DECD591419BB1BAF00951DFD /* Barbeque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Barbeque.jpg; sourceTree = "<group>"; };
-		DECD591519BB1BAF00951DFD /* Breakfast.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Breakfast.jpg; sourceTree = "<group>"; };
-		DECD591619BB1BAF00951DFD /* Chinese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chinese.jpg; sourceTree = "<group>"; };
-		DECD591719BB1BAF00951DFD /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
-		DECD591819BB1BAF00951DFD /* Diner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Diner.jpg; sourceTree = "<group>"; };
-		DECD591919BB1BAF00951DFD /* European.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = European.jpg; sourceTree = "<group>"; };
-		DECD591A19BB1BAF00951DFD /* Fast Food.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fast Food.jpg"; sourceTree = "<group>"; };
-		DECD591B19BB1BAF00951DFD /* Indian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Indian.png; sourceTree = "<group>"; };
-		DECD591C19BB1BAF00951DFD /* Korean.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Korean.jpg; sourceTree = "<group>"; };
-		DECD591D19BB1BAF00951DFD /* Mexican.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mexican.jpg; sourceTree = "<group>"; };
-		DECD591E19BB1BAF00951DFD /* Pizza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Pizza.jpg; sourceTree = "<group>"; };
-		DECD591F19BB1BAF00951DFD /* Seafood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seafood.jpg; sourceTree = "<group>"; };
-		DECD592019BB1BAF00951DFD /* Steakhouse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Steakhouse.jpg; sourceTree = "<group>"; };
-		DECD592119BB1BAF00951DFD /* sushi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sushi.jpg; sourceTree = "<group>"; };
-		DECD592219BB1BAF00951DFD /* Thai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thai.jpg; sourceTree = "<group>"; };
-		DECD592319BB1BAF00951DFD /* Vegetarian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vegetarian.png; sourceTree = "<group>"; };
-		DECD592419BB1BAF00951DFD /* Vietnamese.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vietnamese.jpg; sourceTree = "<group>"; };
 		DECD592619BB1BAF00951DFD /* blueButtonBackground1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonBackground1.png; sourceTree = "<group>"; };
 		DECD592719BB1BAF00951DFD /* greenBackgroundButton1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenBackgroundButton1.png; sourceTree = "<group>"; };
 		DECD592819BB1BAF00951DFD /* roadtrip1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = roadtrip1.jpg; sourceTree = "<group>"; };
@@ -186,6 +198,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A85A752B19BC022900E3F1D8 /* Cuisine Icons */ = {
+			isa = PBXGroup;
+			children = (
+				A85A752C19BC022900E3F1D8 /* American.png */,
+				A85A752D19BC022900E3F1D8 /* Asian.png */,
+				A85A752E19BC022900E3F1D8 /* Bar.png */,
+				A85A752F19BC022900E3F1D8 /* Barbeque.png */,
+				A85A753019BC022900E3F1D8 /* Breakfast.png */,
+				A85A753119BC022900E3F1D8 /* Chinese.png */,
+				A85A753219BC022900E3F1D8 /* Coffee.png */,
+				A85A753319BC022900E3F1D8 /* Diner.png */,
+				A85A753419BC022900E3F1D8 /* European.png */,
+				A85A753519BC022900E3F1D8 /* Fast Food.png */,
+				A85A753619BC022900E3F1D8 /* Indian.png */,
+				A85A753719BC022900E3F1D8 /* Korean.png */,
+				A85A753819BC022900E3F1D8 /* Mexican.png */,
+				A85A753919BC022900E3F1D8 /* Pizza.png */,
+				A85A753A19BC022900E3F1D8 /* Seafood.png */,
+				A85A753B19BC022900E3F1D8 /* Steakhouse.png */,
+				A85A753C19BC022900E3F1D8 /* Sushi.png */,
+				A85A753D19BC022900E3F1D8 /* Thai.png */,
+				A85A753E19BC022900E3F1D8 /* Vegetarian.png */,
+				A85A753F19BC022900E3F1D8 /* Vietnamese.png */,
+			);
+			path = "Cuisine Icons";
+			sourceTree = "<group>";
+		};
 		A86E7D0319BACBE0006BCAFB = {
 			isa = PBXGroup;
 			children = (
@@ -233,19 +272,27 @@
 		A86E7D1519BACBE0006BCAFB /* Pitstop Pal */ = {
 			isa = PBXGroup;
 			children = (
-				FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */,
 				A86E7D1E19BACBE0006BCAFB /* AppDelegate.h */,
 				A86E7D1F19BACBE0006BCAFB /* AppDelegate.m */,
 				A86E7DCD19BB312E006BCAFB /* Main.storyboard */,
-				FD91C5FC19BAD1AA00C59027 /* GoogleMaps.framework */,
 				A86E7D2419BACBE0006BCAFB /* MainViewController.h */,
 				A86E7D2519BACBE0006BCAFB /* MainViewController.m */,
-				DE7A20A919BB124000FB517E /* Scheduler.h */,
-				DE7A20AA19BB124000FB517E /* Scheduler.m */,
 				A86E7D2719BACBE0006BCAFB /* FlipsideViewController.h */,
 				A86E7D2819BACBE0006BCAFB /* FlipsideViewController.m */,
+				A85A752819BBF2B600E3F1D8 /* DrivingViewController.h */,
+				A85A752919BBF2B600E3F1D8 /* DrivingViewController.m */,
+				DE7A20A919BB124000FB517E /* Scheduler.h */,
+				DE7A20AA19BB124000FB517E /* Scheduler.m */,
+				A85A752019BBEE5D00E3F1D8 /* GasPitstop.h */,
+				A85A752119BBEE5D00E3F1D8 /* GasPitstop.m */,
+				A85A751A19BBEE3D00E3F1D8 /* FoodPitstop.h */,
+				A85A751B19BBEE3D00E3F1D8 /* FoodPitstop.m */,
+				A85A751C19BBEE3D00E3F1D8 /* PitStop.h */,
+				A85A751D19BBEE3D00E3F1D8 /* PitStop.m */,
 				A86E7D2A19BACBE0006BCAFB /* Images.xcassets */,
 				A86E7D1619BACBE0006BCAFB /* Supporting Files */,
+				FD91C5FE19BAD35400C59027 /* GoogleMaps.bundle */,
+				FD91C5FC19BAD1AA00C59027 /* GoogleMaps.framework */,
 			);
 			path = "Pitstop Pal";
 			sourceTree = "<group>";
@@ -280,33 +327,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DECD591019BB1BAF00951DFD /* Cuisine Icons */ = {
-			isa = PBXGroup;
-			children = (
-				DECD591119BB1BAF00951DFD /* American.jpg */,
-				DECD591219BB1BAF00951DFD /* Asian.jpg */,
-				DECD591319BB1BAF00951DFD /* bar.jpg */,
-				DECD591419BB1BAF00951DFD /* Barbeque.jpg */,
-				DECD591519BB1BAF00951DFD /* Breakfast.jpg */,
-				DECD591619BB1BAF00951DFD /* Chinese.jpg */,
-				DECD591719BB1BAF00951DFD /* coffee.jpg */,
-				DECD591819BB1BAF00951DFD /* Diner.jpg */,
-				DECD591919BB1BAF00951DFD /* European.jpg */,
-				DECD591A19BB1BAF00951DFD /* Fast Food.jpg */,
-				DECD591B19BB1BAF00951DFD /* Indian.png */,
-				DECD591C19BB1BAF00951DFD /* Korean.jpg */,
-				DECD591D19BB1BAF00951DFD /* Mexican.jpg */,
-				DECD591E19BB1BAF00951DFD /* Pizza.jpg */,
-				DECD591F19BB1BAF00951DFD /* Seafood.jpg */,
-				DECD592019BB1BAF00951DFD /* Steakhouse.jpg */,
-				DECD592119BB1BAF00951DFD /* sushi.jpg */,
-				DECD592219BB1BAF00951DFD /* Thai.jpg */,
-				DECD592319BB1BAF00951DFD /* Vegetarian.png */,
-				DECD592419BB1BAF00951DFD /* Vietnamese.jpg */,
-			);
-			path = "Cuisine Icons";
-			sourceTree = "<group>";
-		};
 		DECD592519BB1BAF00951DFD /* Non-driving State Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,7 +346,7 @@
 				A86E7DD419BB31D1006BCAFB /* shell_logo.png */,
 				A86E7DCF19BB3156006BCAFB /* arrow-icon-left.png */,
 				A86E7DD019BB3156006BCAFB /* arrow-icon-right.png */,
-				DECD591019BB1BAF00951DFD /* Cuisine Icons */,
+				A85A752B19BC022900E3F1D8 /* Cuisine Icons */,
 				DECD592519BB1BAF00951DFD /* Non-driving State Icons */,
 			);
 			name = Resources;
@@ -410,39 +430,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DECD593819BB1BAF00951DFD /* Seafood.jpg in Resources */,
-				DECD593C19BB1BAF00951DFD /* Vegetarian.png in Resources */,
-				DECD592E19BB1BAF00951DFD /* Breakfast.jpg in Resources */,
-				DECD592A19BB1BAF00951DFD /* American.jpg in Resources */,
-				DECD593119BB1BAF00951DFD /* Diner.jpg in Resources */,
+				A85A754A19BC022900E3F1D8 /* Indian.png in Resources */,
 				DECD593F19BB1BAF00951DFD /* greenBackgroundButton1.png in Resources */,
+				A85A754019BC022900E3F1D8 /* American.png in Resources */,
 				A86E7DD119BB3156006BCAFB /* arrow-icon-left.png in Resources */,
-				DECD593A19BB1BAF00951DFD /* sushi.jpg in Resources */,
 				A86E7DD519BB31D1006BCAFB /* in-n-out-logo.jpg in Resources */,
 				A86E7DD819BB33E6006BCAFB /* Sample_map.png in Resources */,
 				A86E7DD619BB31D1006BCAFB /* shell_logo.png in Resources */,
+				A85A755219BC022900E3F1D8 /* Vegetarian.png in Resources */,
+				A85A754C19BC022900E3F1D8 /* Mexican.png in Resources */,
+				A85A754519BC022900E3F1D8 /* Chinese.png in Resources */,
+				A85A754319BC022900E3F1D8 /* Barbeque.png in Resources */,
 				A86E7DCE19BB312E006BCAFB /* Main.storyboard in Resources */,
-				DECD593D19BB1BAF00951DFD /* Vietnamese.jpg in Resources */,
-				DECD593419BB1BAF00951DFD /* Indian.png in Resources */,
-				DECD593919BB1BAF00951DFD /* Steakhouse.jpg in Resources */,
 				DECD593E19BB1BAF00951DFD /* blueButtonBackground1.png in Resources */,
+				A85A754D19BC022900E3F1D8 /* Pizza.png in Resources */,
+				A85A754819BC022900E3F1D8 /* European.png in Resources */,
+				A85A754119BC022900E3F1D8 /* Asian.png in Resources */,
+				A85A755319BC022900E3F1D8 /* Vietnamese.png in Resources */,
+				A85A754E19BC022900E3F1D8 /* Seafood.png in Resources */,
+				A85A754F19BC022900E3F1D8 /* Steakhouse.png in Resources */,
+				A85A754719BC022900E3F1D8 /* Diner.png in Resources */,
+				A85A754919BC022900E3F1D8 /* Fast Food.png in Resources */,
 				A86E7DD219BB3156006BCAFB /* arrow-icon-right.png in Resources */,
-				DECD593219BB1BAF00951DFD /* European.jpg in Resources */,
+				A85A754B19BC022900E3F1D8 /* Korean.png in Resources */,
 				A86E7D2B19BACBE0006BCAFB /* Images.xcassets in Resources */,
-				DECD593B19BB1BAF00951DFD /* Thai.jpg in Resources */,
+				A85A754619BC022900E3F1D8 /* Coffee.png in Resources */,
 				DECD594119BB1BAF00951DFD /* settings1.png in Resources */,
-				DECD592F19BB1BAF00951DFD /* Chinese.jpg in Resources */,
-				DECD592D19BB1BAF00951DFD /* Barbeque.jpg in Resources */,
+				A85A755119BC022900E3F1D8 /* Thai.png in Resources */,
 				DECD594019BB1BAF00951DFD /* roadtrip1.jpg in Resources */,
-				DECD592B19BB1BAF00951DFD /* Asian.jpg in Resources */,
-				DECD593619BB1BAF00951DFD /* Mexican.jpg in Resources */,
-				DECD593519BB1BAF00951DFD /* Korean.jpg in Resources */,
 				A86E7D1A19BACBE0006BCAFB /* InfoPlist.strings in Resources */,
-				DECD593719BB1BAF00951DFD /* Pizza.jpg in Resources */,
-				DECD593019BB1BAF00951DFD /* coffee.jpg in Resources */,
-				DECD593319BB1BAF00951DFD /* Fast Food.jpg in Resources */,
-				DECD592C19BB1BAF00951DFD /* bar.jpg in Resources */,
+				A85A755019BC022900E3F1D8 /* Sushi.png in Resources */,
+				A85A754419BC022900E3F1D8 /* Breakfast.png in Resources */,
 				FD91C5FF19BAD35400C59027 /* GoogleMaps.bundle in Resources */,
+				A85A754219BC022900E3F1D8 /* Bar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,9 +515,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86E7D2019BACBE0006BCAFB /* AppDelegate.m in Sources */,
+				A85A751E19BBEE3D00E3F1D8 /* FoodPitstop.m in Sources */,
 				DE7A20AB19BB124000FB517E /* Scheduler.m in Sources */,
+				A85A751F19BBEE3D00E3F1D8 /* PitStop.m in Sources */,
 				A86E7D2619BACBE0006BCAFB /* MainViewController.m in Sources */,
+				A85A752219BBEE5D00E3F1D8 /* GasPitstop.m in Sources */,
 				A86E7D2919BACBE0006BCAFB /* FlipsideViewController.m in Sources */,
+				A85A752A19BBF2B600E3F1D8 /* DrivingViewController.m in Sources */,
 				A86E7D1C19BACBE0006BCAFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

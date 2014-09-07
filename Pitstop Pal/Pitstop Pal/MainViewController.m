@@ -6,7 +6,9 @@
 //  Copyright (c) 2014 MHACKS PV. All rights reserved.
 //
 
+#import "DrivingViewController.h"
 #import "MainViewController.h"
+#import "FlipsideViewController.h"
 
 
 @implementation MainViewController
@@ -21,11 +23,20 @@ NSString *dest;
     }
 
 
-- (IBAction)buttonPressed:(id)sender {
-}
 - (IBAction)ExitText:(id)sender {
     dest = destinationField.text;
     Label.text = dest;
+    
+}
+- (IBAction)PITSToptions:(id)sender {
+}
+
+- (IBAction)startTrip:(id)sender {
+    
+    DrivingViewController *drivingLayer = [self.storyboard instantiateViewControllerWithIdentifier:@"drivingLayer"];
+    drivingLayer.destinationAddress = dest;
+    [self.navigationController pushViewController:drivingLayer animated:YES];
+    
     
 }
 @end
