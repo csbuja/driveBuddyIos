@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 MHACKS PV. All rights reserved.
 //
 
-#import "PitStop.h"
+#import "Pitstop.h"
 
 @interface FoodPitstop : Pitstop
-- (void)getInfo:(void (^)(NSArray *infos, NSError *error))completionHandler;
+
+- (void)getInfoWithFoodPrefs:(NSArray *)foodPrefs withCompletionHandler:(void (^)(NSArray *infos, NSError *error))completionHandler;
+
 @end

@@ -60,7 +60,7 @@
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-GW-sNf">
-                                <rect key="frame" x="93" y="367" width="135" height="44"/>
+                                <rect key="frame" x="93" y="326" width="135" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="135" id="3J9-h2-ba7"/>
@@ -75,16 +75,16 @@
                                     <segue destination="kIf-nA-PKG" kind="modal" modalTransitionStyle="flipHorizontal" id="mro-6j-4gf"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-gM-ugm">
-                                <rect key="frame" x="47" y="457" width="227" height="68"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-gM-ugm">
+                                <rect key="frame" x="18" y="368" width="285" height="195"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="e2r-Ob-WFa"/>
-                                    <constraint firstAttribute="width" constant="227" id="jxh-ax-k1A"/>
+                                    <constraint firstAttribute="width" constant="285" id="gSq-oI-V5Y"/>
+                                    <constraint firstAttribute="height" constant="195" id="ipW-3b-c5b"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="Start Trip!" backgroundImage="greenBackgroundButton1.png">
-                                    <color key="titleColor" red="1" green="0.98281712970000001" blue="0.02167731711" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Start Trip!" backgroundImage="fiat.png">
+                                    <color key="titleColor" red="0.13209750394310849" green="0.20760279631804102" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -99,7 +99,7 @@
                             <constraint firstAttribute="trailing" secondItem="jqg-sy-dxO" secondAttribute="trailing" constant="20" symbolic="YES" id="1ym-A3-aKq"/>
                             <constraint firstItem="nFr-e3-oaI" firstAttribute="centerX" secondItem="GSB-Xb-0QS" secondAttribute="centerX" id="6TH-BZ-0zb"/>
                             <constraint firstItem="fFE-GW-sNf" firstAttribute="centerX" secondItem="nFr-e3-oaI" secondAttribute="centerX" constant="0.5" id="A1F-rL-SFL"/>
-                            <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="fFE-GW-sNf" secondAttribute="bottom" constant="157" id="JXT-wm-LwA"/>
+                            <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="9RJ-gM-ugm" secondAttribute="bottom" constant="5" id="DWq-QB-kzJ"/>
                             <constraint firstItem="nFr-e3-oaI" firstAttribute="centerX" secondItem="9RJ-gM-ugm" secondAttribute="centerX" constant="-0.5" id="ROU-Jl-0AK"/>
                             <constraint firstAttribute="bottom" secondItem="jqg-sy-dxO" secondAttribute="bottom" constant="20" symbolic="YES" id="Uf2-YL-3zF"/>
                             <constraint firstItem="wkE-qc-lTR" firstAttribute="centerX" secondItem="nFr-e3-oaI" secondAttribute="centerX" id="cxr-CO-D4d"/>
@@ -107,6 +107,8 @@
                             <constraint firstItem="wkE-qc-lTR" firstAttribute="top" secondItem="bfD-tQ-IfD" secondAttribute="bottom" constant="27" id="im8-Ko-2H0"/>
                             <constraint firstAttribute="centerY" secondItem="GSB-Xb-0QS" secondAttribute="centerY" id="lAE-kD-ajR"/>
                             <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="nFr-e3-oaI" secondAttribute="bottom" id="mfL-1f-hpI"/>
+                            <constraint firstItem="c4s-Xn-x5B" firstAttribute="top" secondItem="fFE-GW-sNf" secondAttribute="bottom" constant="198" id="pcu-Bm-Xdl"/>
+                            <constraint firstAttribute="centerX" secondItem="9RJ-gM-ugm" secondAttribute="centerX" constant="-0.5" id="qEo-8b-nvK"/>
                         </constraints>
                     </view>
                     <connections>
@@ -209,12 +211,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="•••••" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8jc-3O-hZH">
-                                <rect key="frame" x="159" y="275" width="87" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="45 Miles" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="MEL-Ui-OiU">
                                 <rect key="frame" x="159" y="297" width="109" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -234,6 +230,9 @@
                                 <state key="normal" image="arrow-icon-right.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="rightGas:" destination="yUb-SI-jRe" eventType="touchUpInside" id="dIw-jo-w8m"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ry8-hu-QiU">
                                 <rect key="frame" x="276" y="207" width="24" height="158"/>
@@ -245,6 +244,9 @@
                                 <state key="normal" image="arrow-icon-right.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="rightFood:" destination="yUb-SI-jRe" eventType="touchUpInside" id="QKf-v5-edg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n1y-Xf-SLg">
                                 <rect key="frame" x="20" y="205" width="24" height="158"/>
@@ -256,6 +258,9 @@
                                 <state key="normal" image="arrow-icon-left.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="leftFood:" destination="yUb-SI-jRe" eventType="touchUpInside" id="1c9-qy-LwH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yzW-nx-rWF">
                                 <rect key="frame" x="20" y="29" width="24" height="158"/>
@@ -267,6 +272,9 @@
                                 <state key="normal" image="arrow-icon-left.png">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="leftGas:" destination="yUb-SI-jRe" eventType="touchUpInside" id="aF8-V3-EIH"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6wr-wy-B3a">
                                 <rect key="frame" x="128" y="207" width="64" height="21"/>
@@ -296,6 +304,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="startGasDirections:" destination="yUb-SI-jRe" eventType="touchUpInside" id="M1S-6k-lWw"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U4p-om-TWw">
                                 <rect key="frame" x="80" y="340" width="160" height="25"/>
@@ -309,7 +320,18 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="startFoodDirections:" destination="yUb-SI-jRe" eventType="touchUpInside" id="vrN-CI-rKE"/>
+                                </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="yelpStars.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nRP-VK-6Ni">
+                                <rect key="frame" x="154" y="274" width="61" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="FRI-LT-ZZd"/>
+                                    <constraint firstAttribute="width" constant="61" id="U4u-FN-1fQ"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -348,6 +370,21 @@
                             <constraint firstItem="PPg-Hp-TIC" firstAttribute="top" secondItem="cDw-Bo-8nD" secondAttribute="bottom" constant="54" id="zCq-ZG-2Ff"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="foodIcon" destination="YNE-TL-gcn" id="agc-kO-FZd"/>
+                        <outlet property="foodName" destination="e6V-F7-bfd" id="twR-KQ-0io"/>
+                        <outlet property="foodStars" destination="nRP-VK-6Ni" id="jmx-o5-Elb"/>
+                        <outlet property="gasIcon" destination="PPg-Hp-TIC" id="Rhc-pr-dJg"/>
+                        <outlet property="gasPrice" destination="ql7-MA-UKV" id="kcg-OI-XHH"/>
+                        <outlet property="gasStationName" destination="XKL-Ub-RTf" id="Hna-6W-b6D"/>
+                        <outlet property="leftFoodArrow" destination="n1y-Xf-SLg" id="Ga7-l6-V4B"/>
+                        <outlet property="leftGasArrow" destination="yzW-nx-rWF" id="bhc-QM-dPK"/>
+                        <outlet property="milesToFood" destination="MEL-Ui-OiU" id="XZg-Lo-VDT"/>
+                        <outlet property="milesToGas" destination="OGV-SJ-Wkb" id="uDX-u3-W9t"/>
+                        <outlet property="rightFoodArrow" destination="Ry8-hu-QiU" id="Uwd-Wq-FK2"/>
+                        <outlet property="rightGasArrow" destination="cns-N9-hej" id="lkx-kh-IXd"/>
+                        <outlet property="routeMap" destination="pOy-nd-nqb" id="UVU-fe-bnp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z7Z-VE-7m2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1053,10 +1090,11 @@
         <image name="arrow-icon-left.png" width="512" height="512"/>
         <image name="arrow-icon-right.png" width="512" height="512"/>
         <image name="blueButtonBackground1.png" width="300" height="96"/>
-        <image name="greenBackgroundButton1.png" width="300" height="96"/>
+        <image name="fiat.png" width="257" height="171"/>
         <image name="in-n-out-logo.jpg" width="400" height="300"/>
         <image name="roadtrip1.jpg" width="500" height="332"/>
         <image name="shell_logo.png" width="577" height="535"/>
+        <image name="yelpStars.jpg" width="560" height="230"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
