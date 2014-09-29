@@ -22,6 +22,12 @@ NSMutableDictionary *cuisineChoices;
 UIImage *check;
 
 
+- (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle
+{
+    NSAssert(NO, @"Initialize with -init");
+    return nil;
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -63,22 +69,28 @@ UIImage *check;
 
 #pragma mark - Actions
 
-- (IBAction)done:(id)sender
-{
-    [self.delegate flipsideViewControllerDidFinish:self];
+
+
+- (IBAction)back:(id)sender {
+    
+    NSNumber * freq = [NSNumber numberWithInt:stopFreq];
+    
+    NSArray *paramsArray = [[NSArray alloc] initWithObjects:freq, cuisineChoices, nil];
+    
+   
+    NSArray *paramKeys =[[NSArray alloc] initWithObjects:@"stopFreq", @"cuisineChoices", nil];
+    
+    NSMutableDictionary * params = [[NSMutableDictionary alloc] initWithObjects:paramsArray forKeys: paramKeys];
+    
+    FlipsideViewController *viewControllerB = [[FlipsideViewController alloc] initWithNib:@"FlipsideViewController" bundle:nil];
+    FlipsideViewController.delegate = self
+    [[self navigationController] pushViewController:viewControllerB animated:YES];
+    
+    [self.delegate addItemViewController:self didFinishEnteringItem:params];
+    
+   // [self.navigationController pushViewController:mainLayer animated:YES];
 }
 
-- (IBAction)returnToMainScreen:(id)sender {
-    
-    MainViewController *mainLayer = [self.storyboard instantiateViewControllerWithIdentifier:@"mainView"];
-    mainLayer.stopFrequency = stopFreq;
-    mainLayer.cuisinePrefs = cuisineChoices;
-    [self.navigationController pushViewController:mainLayer animated:YES];
-    
-    
-    
-    
-}
 
 - (IBAction)sliderMoved:(id)sender {
     stopFreq = sliderValue.value;

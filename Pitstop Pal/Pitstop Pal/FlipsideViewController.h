@@ -10,11 +10,16 @@
 
 @class FlipsideViewController;
 
-@protocol FlipsideViewControllerDelegate
-- (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller;
+@protocol FlipsideViewControllerDelegate <NSObject>
+- (void)addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:( NSMutableDictionary *)item;
 @end
 
 @interface FlipsideViewController : UIViewController
+
+@property (nonatomic, weak) id <FlipsideViewControllerDelegate> delegate;
+
+
+
 
 @property (weak, nonatomic) IBOutlet UISlider *sliderValue;
 
@@ -24,11 +29,12 @@
 
 - (IBAction)returnToMainScreen:(id)sender;
 
-@property (weak, nonatomic) id <FlipsideViewControllerDelegate> delegate;
 
 - (IBAction)done:(id)sender;
 
+- (IBAction)returnToMain:(UIButton *)sender;
 
+- (IBAction)back:(id)sender;
 
 
 @property (weak, nonatomic) IBOutlet UIButton *americanButton;
@@ -94,6 +100,7 @@
 
 
 
+- (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle;
 
 
 

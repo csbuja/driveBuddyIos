@@ -16,9 +16,37 @@
 
 NSString *dest;
 
+- (void)setvalues
+{
+    if (self != nil)
+    {
+        self.stopFrequency = 150;
+        
+        NSMutableDictionary *emptyDict = [[NSMutableDictionary alloc] init];
+        
+        
+        self.cuisinePrefs = emptyDict;
+    }
+}
+
+- (void) addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:(NSMutableDictionary *)item
+{
+    // Set properties
+    
+    NSNumber *stopFreq =[item objectForKey:@"stopFreq"];
+    
+    self.stopFrequency = [stopFreq intValue];
+    self.cuisinePrefs = [item objectForKey:@"cuisineChoices"];
+    
+    
+}
+
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    self.setvalues;
+    
     
     }
 

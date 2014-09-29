@@ -10,8 +10,8 @@
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
 
-@property NSMutableDictionary *cuisinePrefs;
-@property int stopFrequency;
+@property (strong) NSMutableDictionary *cuisinePrefs;
+@property (assign) int stopFrequency;
 
 
 - (IBAction)PITSToptions:(id)sender;
@@ -22,7 +22,7 @@
 
 - (IBAction)ExitText:(id)sender;
 
-
+- (void) setvalues;
 
 
 @end

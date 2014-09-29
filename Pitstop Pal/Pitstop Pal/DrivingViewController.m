@@ -53,47 +53,53 @@ NSMutableDictionary *wayPoints;
     // Do any additional setup after loading the view.foodPrefs =
     
     [foodPrefs initWithObjects: nil];
+    
+    
+        if (cuisinePrefs.count != 0)
+        {
+            if ([cuisinePrefs objectForKey:@"american"])
+            {[foodPrefs addObject:@"american"];}
+            if ([cuisinePrefs objectForKey:@"asian"])
+            {[foodPrefs addObject:@"asian"];}
+            if ([cuisinePrefs objectForKey:@"bar"])
+            {[foodPrefs addObject:@"bar"];}
+            if ([cuisinePrefs objectForKey:@"barbeque"])
+            {[foodPrefs addObject:@"barbeque"];}
+            if ([cuisinePrefs objectForKey:@"breakfast"])
+            {[foodPrefs addObject:@"breakfast"];}
+            if ([cuisinePrefs objectForKey:@"chinese"])
+            {[foodPrefs addObject:@"chinese"];}
+            if ([cuisinePrefs objectForKey:@"coffee"])
+            {[foodPrefs addObject:@"coffee"];}
+            if ([cuisinePrefs objectForKey:@"diner"])
+            {[foodPrefs addObject:@"diner"];}
+            if ([cuisinePrefs objectForKey:@"european"])
+            {[foodPrefs addObject:@"european"];}
+            if ([cuisinePrefs objectForKey:@"fastFood"])
+            {[foodPrefs addObject:@"fastFood"];}
+            if ([cuisinePrefs objectForKey:@"indian"])
+            {[foodPrefs addObject:@"indian"];}
+            if ([cuisinePrefs objectForKey:@"korean"])
+            {[foodPrefs addObject:@"korean"];}
+            if ([cuisinePrefs objectForKey:@"mexican"])
+            {[foodPrefs addObject:@"mexican"];}
+            if ([cuisinePrefs objectForKey:@"pizza"])
+            {[foodPrefs addObject:@"pizza"];}
+            if ([cuisinePrefs objectForKey:@"seafood"])
+            {[foodPrefs addObject:@"seafood"];}
+            if ([cuisinePrefs objectForKey:@"steakhouse"])
+            {[foodPrefs addObject:@"steakhouse"];}
+            if ([cuisinePrefs objectForKey:@"sushi"])
+            {[foodPrefs addObject:@"sushi"];}
+            if ([cuisinePrefs objectForKey:@"thai"])
+            {[foodPrefs addObject:@"thai"];}
+            if ([cuisinePrefs objectForKey:@"vegetarian"])
+            {[foodPrefs addObject:@"vegetarian"];}
+            if ([cuisinePrefs objectForKey:@"vietnamese"])
+            {[foodPrefs addObject:@"vietnamese"];}
+        }
+            
         
-        if ([cuisinePrefs objectForKey:@"american"])
-        {[foodPrefs addObject:@"american"];}
-        if ([cuisinePrefs objectForKey:@"asian"])
-        {[foodPrefs addObject:@"asian"];}
-        if ([cuisinePrefs objectForKey:@"bar"])
-        {[foodPrefs addObject:@"bar"];}
-        if ([cuisinePrefs objectForKey:@"barbeque"])
-        {[foodPrefs addObject:@"barbeque"];}
-        if ([cuisinePrefs objectForKey:@"breakfast"])
-        {[foodPrefs addObject:@"breakfast"];}
-        if ([cuisinePrefs objectForKey:@"chinese"])
-        {[foodPrefs addObject:@"chinese"];}
-        if ([cuisinePrefs objectForKey:@"coffee"])
-        {[foodPrefs addObject:@"coffee"];}
-        if ([cuisinePrefs objectForKey:@"diner"])
-        {[foodPrefs addObject:@"diner"];}
-        if ([cuisinePrefs objectForKey:@"european"])
-        {[foodPrefs addObject:@"european"];}
-        if ([cuisinePrefs objectForKey:@"fastFood"])
-        {[foodPrefs addObject:@"fastFood"];}
-        if ([cuisinePrefs objectForKey:@"indian"])
-        {[foodPrefs addObject:@"indian"];}
-        if ([cuisinePrefs objectForKey:@"korean"])
-        {[foodPrefs addObject:@"korean"];}
-        if ([cuisinePrefs objectForKey:@"mexican"])
-        {[foodPrefs addObject:@"mexican"];}
-        if ([cuisinePrefs objectForKey:@"pizza"])
-        {[foodPrefs addObject:@"pizza"];}
-        if ([cuisinePrefs objectForKey:@"seafood"])
-        {[foodPrefs addObject:@"seafood"];}
-        if ([cuisinePrefs objectForKey:@"steakhouse"])
-        {[foodPrefs addObject:@"steakhouse"];}
-        if ([cuisinePrefs objectForKey:@"sushi"])
-        {[foodPrefs addObject:@"sushi"];}
-        if ([cuisinePrefs objectForKey:@"thai"])
-        {[foodPrefs addObject:@"thai"];}
-        if ([cuisinePrefs objectForKey:@"vegetarian"])
-        {[foodPrefs addObject:@"vegetarian"];}
-        if ([cuisinePrefs objectForKey:@"vietnamese"])
-        {[foodPrefs addObject:@"vietnamese"];}
     
     
     destinationAddress = [destinationAddress stringByReplacingOccurrencesOfString:@" " withString:@"+"];
