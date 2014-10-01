@@ -11,7 +11,6 @@
 @class FlipsideViewController;
 
 @protocol FlipsideViewControllerDelegate <NSObject>
-- (void)addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:( NSMutableDictionary *)item;
 @end
 
 @interface FlipsideViewController : UIViewController
@@ -27,12 +26,7 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *stopFreqLabel;
 
-- (IBAction)returnToMainScreen:(id)sender;
 
-
-- (IBAction)done:(id)sender;
-
-- (IBAction)returnToMain:(UIButton *)sender;
 
 - (IBAction)back:(id)sender;
 
@@ -103,7 +97,7 @@
 - (id)initWithNibName:(NSString *)nibName bundle:(NSBundle *)bundle;
 
 
-
+- (void)addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:( NSMutableDictionary *)item;
 
 
 

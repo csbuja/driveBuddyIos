@@ -24,5 +24,6 @@
 
 - (void) setvalues;
 
+- (void)addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:( NSMutableDictionary *)item;
 
 @end

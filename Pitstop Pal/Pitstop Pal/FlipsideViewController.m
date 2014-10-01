@@ -15,7 +15,7 @@
 @end
 
 @implementation FlipsideViewController
-@synthesize sliderValue,stopFreqLabel, americanButton, asianButton, barButton, barbequeButton, breakfastButton, chineseButton, coffeeButton, dinerButton, europeanButton, fastFoodButton, indianButton, koreanButton, mexicanButton, pizzaButton, seafoodButton, steakhouseButton, sushiButton, thaiButton, vegetarianButton, vietnameseButton;
+@synthesize delegate, sliderValue,stopFreqLabel, americanButton, asianButton, barButton, barbequeButton, breakfastButton, chineseButton, coffeeButton, dinerButton, europeanButton, fastFoodButton, indianButton, koreanButton, mexicanButton, pizzaButton, seafoodButton, steakhouseButton, sushiButton, thaiButton, vegetarianButton, vietnameseButton;
 
 int stopFreq;
 NSMutableDictionary *cuisineChoices;
@@ -69,6 +69,18 @@ UIImage *check;
 
 #pragma mark - Actions
 
+- (void) addItemViewController:(MainViewController *)controller didFinishEnteringItem:(NSMutableDictionary *)item
+{
+    // Set properties
+    
+    NSNumber *stopFreq =[item objectForKey:@"stopFreq"];
+    
+    
+    controller.stopFrequency = [stopFreq intValue];
+    controller.cuisinePrefs = [item objectForKey:@"cuisineChoices"];
+    
+    
+}
 
 
 - (IBAction)back:(id)sender {
@@ -82,12 +94,11 @@ UIImage *check;
     
     NSMutableDictionary * params = [[NSMutableDictionary alloc] initWithObjects:paramsArray forKeys: paramKeys];
     
-    FlipsideViewController *viewControllerB = [[FlipsideViewController alloc] initWithNib:@"FlipsideViewController" bundle:nil];
-    FlipsideViewController.delegate = self
+    
+    MainViewController *viewControllerB = [[MainViewController alloc] initWithNibName:@"FlipsideViewController" bundle:nil];
+    [self addItemViewController:self didFinishEnteringItem:params];
+
     [[self navigationController] pushViewController:viewControllerB animated:YES];
-    
-    [self.delegate addItemViewController:self didFinishEnteringItem:params];
-    
    // [self.navigationController pushViewController:mainLayer animated:YES];
 }
 

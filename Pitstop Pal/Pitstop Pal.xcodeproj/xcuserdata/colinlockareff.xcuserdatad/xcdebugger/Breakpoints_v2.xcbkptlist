@@ -249,7 +249,7 @@
                   symbolName = "-[addressToLatLon initWithAdress:]"
                   moduleName = "Pitstop Pal"
                   urlString = "file:///Users/colinlockareff/Desktop/MHACKS%202014/DriveBuddyIos/Pitstop%20Pal/Pitstop%20Pal/addressToLatLon.m"
-                  timestampString = "433663191.439303"
+                  timestampString = "433832406.264027"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -263,7 +263,7 @@
                   symbolName = "__34-[addressToLatLon initWithAdress:]_block_invoke"
                   moduleName = "Pitstop Pal"
                   urlString = "file:///Users/colinlockareff/Desktop/MHACKS%202014/DriveBuddyIos/Pitstop%20Pal/Pitstop%20Pal/addressToLatLon.m"
-                  timestampString = "433663191.439557"
+                  timestampString = "433832406.264178"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "33"
@@ -295,22 +295,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pitstop Pal/FlipsideViewController.m"
-            timestampString = "433662919.137435"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "101"
-            endingLineNumber = "101"
-            landmarkName = "-american:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Pitstop Pal/MainViewController.m"
             timestampString = "433663190.919899"
             startingColumnNumber = "9223372036854775807"
@@ -328,12 +312,12 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pitstop Pal/FlipsideViewController.m"
-            timestampString = "433662919.137435"
+            timestampString = "433832405.917926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
-            landmarkName = "-back:"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "-addItemViewController:didFinishEnteringItem:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -376,11 +360,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pitstop Pal/FlipsideViewController.m"
-            timestampString = "433662961.434018"
+            timestampString = "433832405.917926"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "93"
+            endingLineNumber = "93"
             landmarkName = "-back:"
             landmarkType = "5">
          </BreakpointContent>
