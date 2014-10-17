@@ -71,6 +71,13 @@ NSString *dest;
     
 }
 - (IBAction)PITSToptions:(id)sender {
+    [self performSegueWithIdentifier:@"toPitStoptions" sender:self];
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    FlipsideViewController * flip = [segue destinationViewController];
+    [flip setStopFreq:self.stopFrequency];
+    [flip setCuisineChoices:self.cuisinePrefs];
 }
 
 - (IBAction)startTrip:(id)sender {

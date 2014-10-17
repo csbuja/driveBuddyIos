@@ -32,28 +32,28 @@ UIImage *check;
 	// Do any additional setup after loading the view, typically from a nib.
     
     
-    cuisineChoices = [NSMutableDictionary dictionaryWithCapacity:20];
-    
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"american"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"asian"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"bar"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"barbeque"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"breakfast"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"chinese"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"coffee"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"diner"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"european"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"fastFood"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"indian"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"korean"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"mexican"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"pizza"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"seafood"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"steakhouse"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"sushi"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"thai"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"vegetarian"];
-    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"vietnamese"];
+//    cuisineChoices = [NSMutableDictionary dictionaryWithCapacity:20];
+//    
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"american"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"asian"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"bar"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"barbeque"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"breakfast"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"chinese"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"coffee"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"diner"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"european"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"fastFood"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"indian"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"korean"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"mexican"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"pizza"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"seafood"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"steakhouse"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"sushi"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"thai"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"vegetarian"];
+//    [cuisineChoices setObject:[NSNumber numberWithBool:NO] forKey:@"vietnamese"];
     
     check = [UIImage imageNamed:@"checkMark"];
     

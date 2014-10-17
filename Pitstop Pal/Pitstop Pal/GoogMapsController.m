@@ -33,19 +33,20 @@
                                    userInfo:nil
                                     repeats:YES];
     
+    //_manager = [AFHTTPRequestOperationManager manager];
     return self;
 }
 
 - (void) getWaypoints :(void (^)(NSMutableDictionary *infos, NSError *error))completionHandler
 {
-    NSString * urlString = [NSString stringWithFormat:@"%@/googlemaps/%@/%@/%@/%@/%d", self.root,self.initialPos[0], self.initialPos[1],self.destPos[0],self.destPos[1],self.stopFreq];
+    NSString * urlString = [NSString stringWithFormat:@"%@/googlemaps/%@/%@/%@/%@/%d", self.root,self.initialPos[0], self.initialPos[1],self.destPos[0],self.destPos[1],(int)self.stopFreq];
     NSURL *url = [NSURL URLWithString:urlString];
     
     NSURLSession *sesson = [NSURLSession sharedSession];
     NSURLSessionDownloadTask *downloadDataTask = [sesson downloadTaskWithURL:url completionHandler:^(NSURL *localURL, NSURLResponse *response, NSError *error) {
         if (localURL) {
             NSData *data = [NSData dataWithContentsOfURL:localURL];
-            NSArray *result = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
+            NSMutableDictionary *result = [NSJSONSerialization JSONObjectWithData:data options:0 error:&error];
             
             if (!result) {
                 completionHandler(nil, error);

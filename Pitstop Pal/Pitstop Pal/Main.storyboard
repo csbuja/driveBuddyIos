@@ -57,21 +57,6 @@
                                     <action selector="ExitText:" destination="rQl-PL-IFJ" eventType="editingDidEndOnExit" id="g8V-9u-JYT"/>
                                 </connections>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-GW-sNf">
-                                <rect key="frame" x="93" y="326" width="135" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="135" id="3J9-h2-ba7"/>
-                                    <constraint firstAttribute="height" constant="44" id="h17-dv-g6H"/>
-                                </constraints>
-                                <state key="normal" title="PITSToptions" backgroundImage="blueButtonBackground1.png">
-                                    <color key="titleColor" red="1" green="0.98281712970000001" blue="0.02167731711" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="PITSToptions:" destination="rQl-PL-IFJ" eventType="touchUpInside" id="KNm-oh-p7h"/>
-                                    <segue destination="kIf-nA-PKG" kind="modal" modalTransitionStyle="flipHorizontal" id="mro-6j-4gf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9RJ-gM-ugm">
                                 <rect key="frame" x="18" y="368" width="285" height="195"/>
                                 <constraints>
@@ -86,6 +71,21 @@
                                 <connections>
                                     <action selector="startTrip:" destination="rQl-PL-IFJ" eventType="touchUpInside" id="lII-pS-9hD"/>
                                     <segue destination="yUb-SI-jRe" kind="modal" modalTransitionStyle="crossDissolve" id="OVr-VP-snB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fFE-GW-sNf">
+                                <rect key="frame" x="93" y="326" width="135" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="135" id="3J9-h2-ba7"/>
+                                    <constraint firstAttribute="height" constant="44" id="h17-dv-g6H"/>
+                                </constraints>
+                                <state key="normal" title="PITSToptions" backgroundImage="blueButtonBackground1.png">
+                                    <color key="titleColor" red="1" green="0.98281712970000001" blue="0.02167731711" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="PITSToptions:" destination="rQl-PL-IFJ" eventType="touchUpInside" id="KNm-oh-p7h"/>
+                                    <segue destination="kIf-nA-PKG" kind="modal" identifier="toPitStoptions" modalTransitionStyle="flipHorizontal" id="mro-6j-4gf"/>
                                 </connections>
                             </button>
                         </subviews>

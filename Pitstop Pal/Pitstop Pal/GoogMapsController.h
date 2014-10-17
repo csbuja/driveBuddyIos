@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
 @interface GoogMapsController : NSObject
-
+//@property (strong) AFHTTPRequestOperationManager * manager;
 @property (strong) CLLocationManager * locationManager;
 @property (nonatomic,strong) NSArray *pitStops;
 @property (nonatomic, strong) NSArray *currentPos;
