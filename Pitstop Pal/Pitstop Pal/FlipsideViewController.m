@@ -15,10 +15,8 @@
 @end
 
 @implementation FlipsideViewController
-@synthesize delegate, sliderValue,stopFreqLabel, americanButton, asianButton, barButton, barbequeButton, breakfastButton, chineseButton, coffeeButton, dinerButton, europeanButton, fastFoodButton, indianButton, koreanButton, mexicanButton, pizzaButton, seafoodButton, steakhouseButton, sushiButton, thaiButton, vegetarianButton, vietnameseButton;
+@synthesize cuisineChoices,sliderValue,stopFreqLabel, americanButton, asianButton, barButton, barbequeButton, breakfastButton, chineseButton, coffeeButton, dinerButton, europeanButton, fastFoodButton, indianButton, koreanButton, mexicanButton, pizzaButton, seafoodButton, steakhouseButton, sushiButton, thaiButton, vegetarianButton, vietnameseButton;
 
-int stopFreq;
-NSMutableDictionary *cuisineChoices;
 UIImage *check;
 
 
@@ -69,44 +67,16 @@ UIImage *check;
 
 #pragma mark - Actions
 
-- (void) addItemViewController:(MainViewController *)controller didFinishEnteringItem:(NSMutableDictionary *)item
-{
-    // Set properties
-    
-    NSNumber *stopFreq =[item objectForKey:@"stopFreq"];
-    
-    
-    controller.stopFrequency = [stopFreq intValue];
-    controller.cuisinePrefs = [item objectForKey:@"cuisineChoices"];
-    
-    
-}
-
 
 - (IBAction)back:(id)sender {
-    
-    NSNumber * freq = [NSNumber numberWithInt:stopFreq];
-    
-    NSArray *paramsArray = [[NSArray alloc] initWithObjects:freq, cuisineChoices, nil];
-    
-   
-    NSArray *paramKeys =[[NSArray alloc] initWithObjects:@"stopFreq", @"cuisineChoices", nil];
-    
-    NSMutableDictionary * params = [[NSMutableDictionary alloc] initWithObjects:paramsArray forKeys: paramKeys];
-    
-    
-    MainViewController *viewControllerB = [[MainViewController alloc] initWithNibName:@"FlipsideViewController" bundle:nil];
-    [self addItemViewController:self didFinishEnteringItem:params];
-
-    [[self navigationController] pushViewController:viewControllerB animated:YES];
-   // [self.navigationController pushViewController:mainLayer animated:YES];
+    [self performSegueWithIdentifier:@"returnFromOpts" sender:self];
 }
 
 
 - (IBAction)sliderMoved:(id)sender {
-    stopFreq = sliderValue.value;
+    _stopFreq = sliderValue.value;
     
-    NSString *newFreqLabel = [NSString stringWithFormat:@"Every %i Miles", stopFreq];
+    NSString *newFreqLabel = [NSString stringWithFormat:@"Every %i Miles", _stopFreq];
     
     stopFreqLabel.text = newFreqLabel;
     
@@ -212,6 +182,11 @@ UIImage *check;
         [cuisineChoices setValue:[NSNumber numberWithBool:NO] forKey:@"diner"];
     }
 }
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    MainViewController * main = [segue destinationViewController];
+    [main setvaluesWithFrequency: self.stopFreq foodPrefs:self.cuisineChoices];
+}
+
 - (IBAction)european:(id)sender {
     if ([[cuisineChoices objectForKey:@"european"] isEqualToNumber:@0])
     {

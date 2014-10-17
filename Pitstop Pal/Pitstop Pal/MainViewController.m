@@ -1,3 +1,4 @@
+
 //
 //  MainViewController.m
 //  Pitstop Pal
@@ -20,33 +21,47 @@ NSString *dest;
 {
     if (self != nil)
     {
-        self.stopFrequency = 150;
+        self.stopFrequency = 150; //measured in miles
         
         NSMutableDictionary *emptyDict = [[NSMutableDictionary alloc] init];
-        
         
         self.cuisinePrefs = emptyDict;
     }
 }
 
-- (void) addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:(NSMutableDictionary *)item
-{
-    // Set properties
-    
-    NSNumber *stopFreq =[item objectForKey:@"stopFreq"];
-    
-    self.stopFrequency = [stopFreq intValue];
-    self.cuisinePrefs = [item objectForKey:@"cuisineChoices"];
-    
-    
+- (void) setvaluesWithFrequency:(int) frequency foodPrefs:(NSMutableDictionary *) foodPrefs{
+    self.cuisinePrefs = foodPrefs;
+    self.stopFrequency = frequency;
 }
-
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-    self.setvalues;
-    
+    //[self  setvalues ];
+    if(self.stopFrequency == 0)
+        self.stopFrequency = 150;
+        self.cuisinePrefs = [NSMutableDictionary dictionaryWithCapacity:20];
+        
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"american"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"asian"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"bar"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"barbeque"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"breakfast"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"chinese"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"coffee"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"diner"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"european"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"fastFood"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"indian"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"korean"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"mexican"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"pizza"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"seafood"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"steakhouse"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"sushi"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"thai"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"vegetarian"];
+        [self.cuisinePrefs setObject:[NSNumber numberWithBool:NO] forKey:@"vietnamese"];
     
     }
 

@@ -10,15 +10,12 @@
 
 @class FlipsideViewController;
 
-@protocol FlipsideViewControllerDelegate <NSObject>
-@end
+//@protocol FlipsideViewControllerDelegate <NSObject>
+//@end
 
 @interface FlipsideViewController : UIViewController
 
-@property (nonatomic, weak) id <FlipsideViewControllerDelegate> delegate;
-
-
-
+//@property (nonatomic, weak) id <FlipsideViewControllerDelegate> delegate;
 
 @property (weak, nonatomic) IBOutlet UISlider *sliderValue;
 
@@ -26,7 +23,8 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *stopFreqLabel;
 
-
+@property (nonatomic) NSMutableDictionary * cuisineChoices;
+@property (nonatomic) int stopFreq;
 
 - (IBAction)back:(id)sender;
 

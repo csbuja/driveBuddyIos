@@ -8,7 +8,7 @@
 
 #import "FlipsideViewController.h"
 
-@interface MainViewController : UIViewController <FlipsideViewControllerDelegate>
+@interface MainViewController : UIViewController
 
 @property (strong) NSMutableDictionary *cuisinePrefs;
 @property (assign) int stopFrequency;
@@ -24,6 +24,6 @@
 
 - (void) setvalues;
 
-- (void)addItemViewController:(FlipsideViewController *)controller didFinishEnteringItem:( NSMutableDictionary *)item;
+- (void) setvaluesWithFrequency:(int) frequency foodPrefs:(NSMutableDictionary *)foodPrefs;
 
 @end
